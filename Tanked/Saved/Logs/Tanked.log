@@ -1,16 +1,14 @@
-﻿Log file open, 03/20/19 19:28:54
+﻿Log file open, 03/24/19 12:38:28
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
-LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
-LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Tanked
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 4.143138
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.313771
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.261s to configure plugins.
+LogStreaming: Display: Took  0.135s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -118,13 +116,13 @@ LogInit: Build: ++UE4+Release-4.20-CL-4369336
 LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 630
+LogInit: OS: Windows 10 (), CPU: AMD FX(tm)-8350 Eight-Core Processor           , GPU: NVIDIA GeForce GTX 970
 LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line:  
-LogInit: Base Directory: D:/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -147,528 +145,411 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.003s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.03.20-23.28.57:414][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.20-23.28.57:415][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.03.20-23.28.57:456][  0]LogHAL: Display: Platform has ~ 16 GB [17057812480 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.03.20-23.28.57:465][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.03.20-23.28.57:479][  0]LogInit: Going up to parent DeviceProfile []
-[2019.03.20-23.28.57:519][  0]LogInit: Computer: LAPTOP-PM31A8G6
-[2019.03.20-23.28.57:519][  0]LogInit: User: james
-[2019.03.20-23.28.57:519][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.03.20-23.28.57:519][  0]LogInit: High frequency timer resolution =2.437501 MHz
-[2019.03.20-23.28.57:519][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.03.20-23.28.57:519][  0]LogMemory: Platform Memory Stats for Windows
-[2019.03.20-23.28.57:519][  0]LogMemory: Process Physical Memory: 100.32 MB used, 100.32 MB peak
-[2019.03.20-23.28.57:520][  0]LogMemory: Process Virtual Memory: 84.48 MB used, 84.48 MB peak
-[2019.03.20-23.28.57:520][  0]LogMemory: Physical Memory: 5542.52 MB used,  10725.08 MB free, 16267.60 MB total
-[2019.03.20-23.28.57:520][  0]LogMemory: Virtual Memory: 4625.43 MB used,  10725.08 MB free, 134217728.00 MB total
-[2019.03.20-23.28.58:387][  0]LogInit: Using OS detected language (en-US).
-[2019.03.20-23.28.58:387][  0]LogInit: Using OS detected locale (en-US).
-[2019.03.20-23.28.58:398][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.03.20-23.28.59:424][  0]LogStreaming: Display: Took  1.011s to InitEngineTextLocalization.
-[2019.03.20-23.28.59:431][  0]LogInit: Setting process to per monitor DPI aware
-[2019.03.20-23.28.59:982][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.03.20-23.28.59:982][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.03.20-23.29.02:589][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.20-23.29.02:589][  0]LogD3D11RHI: D3D11 adapters:
-[2019.03.20-23.29.02:668][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2019.03.20-23.29.02:668][  0]LogD3D11RHI:       4018/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.03.20-23.29.02:693][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.03.20-23.29.02:693][  0]LogD3D11RHI:       128/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.03.20-23.29.02:696][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.03.20-23.29.02:696][  0]LogD3D11RHI:       0/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.03.20-23.29.02:696][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.03.20-23.29.02:730][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.03.20-23.29.02:730][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
-[2019.03.20-23.29.02:736][  0]LogWindows: EnumDisplayDevices:
-[2019.03.20-23.29.02:736][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2019.03.20-23.29.02:736][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.03.20-23.29.02:736][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.03.20-23.29.02:737][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2019.03.20-23.29.02:737][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
-[2019.03.20-23.29.02:737][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2019.03.20-23.29.02:739][  0]LogD3D11RHI:   Driver Version: 419.35 (internal:25.21.14.1935, unified:419.35)
-[2019.03.20-23.29.02:739][  0]LogD3D11RHI:      Driver Date: 3-1-2019
-[2019.03.20-23.29.02:739][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
-[2019.03.20-23.29.02:793][  0]LogD3D11RHI: Async texture creation enabled
-[2019.03.20-23.29.03:079][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.03.20-23.29.03:135][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Intermediate/Shaders/WorkingDirectory/14528/).
-[2019.03.20-23.29.03:135][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/james/AppData/Local/Temp/UnrealShaderWorkingDir/022AA98447E1B2630C5EAC83741824E8/'.
-[2019.03.20-23.29.03:972][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.03.20-23.29.04:021][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.03.20-23.29.04:066][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.03.20-23.29.04:098][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.03.20-23.29.04:228][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.03.20-23.29.04:285][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.03.20-23.29.04:333][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.03.20-23.29.04:375][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.03.20-23.29.04:398][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.03.20-23.29.04:560][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-23.29.04:560][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-23.29.04:560][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-23.29.04:560][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-23.29.04:560][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-23.29.04:560][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-23.29.04:560][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-23.29.04:560][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-23.29.04:560][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-23.29.04:560][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-23.29.04:560][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-23.29.04:560][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-23.29.04:560][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-23.29.04:560][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-23.29.04:560][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-23.29.04:560][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-23.29.04:560][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-23.29.04:561][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-23.29.04:601][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.03.20-23.29.04:792][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.20-23.29.04:792][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.20-23.29.04:853][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.20-23.29.04:853][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.20-23.29.04:893][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.03.20-23.29.04:939][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.03.20-23.29.04:996][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.03.20-23.29.05:055][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.03.20-23.29.05:094][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.03.20-23.29.05:094][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.03.20-23.29.06:112][  0]LogXGEController: Cleaning working directory: C:/Users/james/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.03.20-23.29.06:112][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.03.20-23.29.06:112][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.03.20-23.29.06:112][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.03.20-23.29.09:725][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.03.20-23.29.10:280][  0]LogDerivedDataCache: Loaded boot cache 0.55s 86MB C:/Users/james/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.03.20-23.29.10:280][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/james/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.03.20-23.29.10:281][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.03.20-23.29.10:281][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.03.20-23.29.10:281][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.20-23.29.10:281][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.03.20-23.29.11:159][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.03.20-23.29.11:172][  0]LogDerivedDataCache: Using Local data cache path C:/Users/james/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.03.20-23.29.11:172][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.03.20-23.29.11:172][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.03.20-23.29.11:233][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.03.20-23.29.11:302][  0]LogSlate: Using FreeType 2.6.0
-[2019.03.20-23.29.11:384][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.03.20-23.29.11:953][  0]LogAssetRegistry: FAssetRegistry took 0.0439 seconds to start up
-[2019.03.20-23.29.13:584][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.20-23.29.15:091][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.03.20-23.29.15:249][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.03.20-23.29.15:250][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.03.20-23.29.15:252][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.03.20-23.29.15:252][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.03.20-23.29.15:557][  0]LogNetVersion: Tanked 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 32475459)
-[2019.03.20-23.29.20:094][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.173252 seconds
-[2019.03.20-23.29.20:141][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.03.20-23.29.20:141][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2019.03.20-23.29.20:141][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.03.20-23.29.34:945][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.03.20-23.29.35:013][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.03.20-23.29.36:337][  0]SourceControl: Source control is disabled
-[2019.03.20-23.29.39:282][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.03.20-23.29.39:782][  0]LogOcInput: OculusInput pre-init called
-[2019.03.20-23.29.40:519][  0]LogEngine: Initializing Engine...
-[2019.03.20-23.29.40:543][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.20-23.29.40:548][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
-[2019.03.20-23.29.40:548][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.20-23.29.40:549][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.20-23.29.40:549][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.20-23.29.41:286][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.03.20-23.29.41:779][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.03.20-23.29.41:886][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.20-23.29.41:928][  0]LogInit: FAudioDevice initialized.
-[2019.03.20-23.29.41:928][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.03.20-23.29.42:003][  0]LogDerivedDataCache: Saved boot cache 0.08s 86MB C:/Users/james/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.03.20-23.29.42:021][  0]LogInit: Texture streaming: Enabled
-[2019.03.20-23.29.42:155][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.03.20-23.29.42:257][  0]LogInit: Transaction tracking system initialized
-[2019.03.20-23.29.42:696][  0]BlueprintLog: New page: Editor Load
-[2019.03.20-23.29.44:098][  0]LocalizationService: Localization service is disabled
-[2019.03.20-23.29.46:604][  0]LogFileCache: Scanning file cache for directory 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/' took 0.02s
-[2019.03.20-23.29.46:604][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.03.20-23.29.46:606][  0]LogCook: Display: Mobile HDR setting 1
-[2019.03.20-23.29.46:619][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.03.20-23.29.46:620][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.20-23.29.46:620][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.20-23.29.46:620][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.20-23.29.46:620][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.20-23.29.48:681][  0]Cmd: MAP LOAD FILE="C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.03.20-23.29.48:698][  0]LightingResults: New page: Lighting Build
-[2019.03.20-23.29.48:821][  0]MapCheck: New page: Map Check
-[2019.03.20-23.29.48:821][  0]LightingResults: New page: Lighting Build
-[2019.03.20-23.29.50:638][  0]LogAIModule: Creating AISystem for world TwinStickExampleMap
-[2019.03.20-23.29.51:057][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.03.20-23.29.51:177][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.03.20-23.29.51:239][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.944ms to complete.
-[2019.03.20-23.29.51:239][  0]LogFileHelpers: Loading map 'TwinStickExampleMap' took 2.560
-[2019.03.20-23.29.52:477][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-23.29.52:489][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-23.29.52:499][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-23.29.52:509][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-23.29.52:559][  0]LogCollectionManager: Loaded 0 collections in 0.002105 seconds
-[2019.03.20-23.29.52:658][  0]LogFileCache: Scanning file cache for directory 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/Collections/' took 0.01s
-[2019.03.20-23.29.52:658][  0]LogFileCache: Scanning file cache for directory 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/Developers/james/Collections/' took 0.01s
-[2019.03.20-23.29.52:658][  0]LogFileCache: Scanning file cache for directory 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/Collections/' took 0.01s
-[2019.03.20-23.29.52:658][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.03.20-23.29.52:669][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2572 classes and 603 folders.
-[2019.03.20-23.29.52:741][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.03.20-23.29.53:640][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.03.20-23.29.53:683][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.03.20-23.29.54:145][  0]LogSlate: Took 0.033842 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.03.20-23.29.54:207][  0]LogSlate: Took 0.057679 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.03.20-23.29.54:321][  0]LogSlate: Took 0.063982 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.03.20-23.29.54:758][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2019.03.20-23.29.55:421][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.03.20-23.29.55:421][  0]LogLoad: (Engine Initialization) Total time: 71.93 seconds
-[2019.03.20-23.29.55:421][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.03.20-23.29.55:581][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.03.20-23.29.55:763][  0]LogSlate: Took 0.024939 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.20-23.29.55:961][  3]LogAssetRegistry: Asset discovery search completed in 44.0436 seconds
-[2019.03.20-23.29.55:963][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.03.20-23.29.55:963][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
-[2019.03.20-23.30.01:481][208]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.20-23.30.01:481][208]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.20-23.30.01:509][208]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.20-23.30.01:509][208]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.03.20-23.30.01:603][208]PIE: New page: PIE session: TwinStickExampleMap (Mar 20, 2019, 3:30:01 PM)
-[2019.03.20-23.30.01:604][208]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
-[2019.03.20-23.30.01:633][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029271s)
-[2019.03.20-23.30.01:634][208]LogAIModule: Creating AISystem for world TwinStickExampleMap
-[2019.03.20-23.30.01:635][208]LogPlayLevel: PIE: World Init took: (0.001186s)
-[2019.03.20-23.30.01:635][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.030662s)
-[2019.03.20-23.30.01:666][208]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.20-23.30.01:684][208]LogInit: FAudioDevice initialized.
-[2019.03.20-23.30.01:737][208]LogLoad: Game class is 'TwinStickGameMode_C'
-[2019.03.20-23.30.01:752][208]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2019.03.20-19.30.01
-[2019.03.20-23.30.01:775][208]LogWorld: Bringing up level for play took: 0.023584
-[2019.03.20-23.30.01:819][208]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
-[2019.03.20-23.30.01:821][208]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.72
-[2019.03.20-23.30.01:821][208]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.20-23.30.29:089][807]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.20-23.30.29:415][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-23.30.29:448][807]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.20-23.30.29:448][807]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.20-23.30.29:479][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-23.30.29:520][808]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2019.03.20-23.30.32:427][981]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.20-23.30.32:492][985]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.20-23.30.32:511][985]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.20-23.30.32:511][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.03.20-23.30.32:511][985]PIE: New page: PIE session: TwinStickExampleMap (Mar 20, 2019, 3:30:32 PM)
-[2019.03.20-23.30.32:511][985]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
-[2019.03.20-23.30.32:514][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004169s)
-[2019.03.20-23.30.32:515][985]LogAIModule: Creating AISystem for world TwinStickExampleMap
-[2019.03.20-23.30.32:515][985]LogPlayLevel: PIE: World Init took: (0.000985s)
-[2019.03.20-23.30.32:515][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.005314s)
-[2019.03.20-23.30.32:547][985]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.20-23.30.32:564][985]LogInit: FAudioDevice initialized.
-[2019.03.20-23.30.32:596][985]LogLoad: Game class is 'TwinStickGameMode_C'
-[2019.03.20-23.30.32:597][985]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2019.03.20-19.30.32
-[2019.03.20-23.30.32:598][985]LogWorld: Bringing up level for play took: 0.001303
-[2019.03.20-23.30.32:610][985]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.49
-[2019.03.20-23.30.32:610][985]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.20-23.30.57:075][423]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.20-23.30.57:075][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-23.30.57:110][423]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.20-23.30.57:111][423]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.20-23.30.57:141][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-23.30.57:186][425]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2019.03.20-23.31.00:936][643]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.20-23.31.01:718][687]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.20-23.31.02:220][717]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.20-23.31.05:914][931]LogEditorViewport: Clicking Background
-[2019.03.20-23.31.06:196][948]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.20-23.32.56:215][553]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.20-23.33.29:471][859]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.20-23.33.34:884][181]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.03.20-23.33.37:833][308]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.20-23.34.07:406][871]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.20-23.34.18:769][514]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.20-23.35.18:754][846]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TwinStickBP/PlayerUI.PlayerUI
-[2019.03.20-23.35.20:433][846]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
-[2019.03.20-23.35.23:025][846]LogSlate: Took 0.019268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.03.20-23.36.26:259][606]LogSlate: Window 'Color Picker' being destroyed
-[2019.03.20-23.40.27:628][788]LogSlate: Window 'PlayerUI*' being destroyed
-[2019.03.20-23.40.28:975][868]LogSlate: Took 0.011807 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.03.20-23.40.39:630][507]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn
-[2019.03.20-23.41.56:941][  0]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/TwinStickExampleMap_Auto11ED0B9C1405EC2E17520AF8926AF2F1E.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/Autosaves/Game/TwinStickBP/Maps/TwinStickExampleMap_Auto1.umap'
-[2019.03.20-23.41.56:984][  0]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TwinStickBP/Maps/TwinStickExampleMap' took 0.470
-[2019.03.20-23.41.56:984][  0]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.470
-[2019.03.20-23.41.56:987][  0]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/Blueprints/TwinStickPawn] ([1] browsable assets)...
-[2019.03.20-23.41.57:007][  0]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn]
-[2019.03.20-23.41.57:007][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/Blueprints/TwinStickPawn]
-[2019.03.20-23.41.57:103][  0]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/TwinStickPawn_Auto1FC1B82D34F9B14043BF008B4BAED662D.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/Autosaves/Game/TwinStickBP/Blueprints/TwinStickPawn_Auto1.uasset'
-[2019.03.20-23.41.57:106][  0]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TwinStickBP/PlayerUI] ([1] browsable assets)...
-[2019.03.20-23.41.57:107][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/PlayerUI]
-[2019.03.20-23.41.57:122][  0]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/PlayerUI_Auto1904587E34128D0A17E013491EE1AD504.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/Autosaves/Game/TwinStickBP/PlayerUI_Auto1.uasset'
-[2019.03.20-23.41.57:124][  0]LogFileHelpers: Auto-saving content packages took 0.138
-[2019.03.20-23.43.04:293][ 35]BlueprintLog: New page: Compile TwinStickPawn
-[2019.03.20-23.43.06:259][100]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/TwinStickPawnC6E9D18E48E0C6059D84BE89287CF4DB.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
-[2019.03.20-23.43.07:402][168]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.20-23.43.07:434][168]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.20-23.43.07:435][168]BlueprintLog: New page: Pre-Play auto-recompile
-[2019.03.20-23.43.07:439][168]LogPlayLevel: [PlayLevel] Compiling PlayerUI before play...
-[2019.03.20-23.43.07:713][168]LogPlayLevel: PlayLevel: Blueprint regeneration took 278 ms (1 blueprints)
-[2019.03.20-23.43.07:713][168]PIE: New page: PIE session: TwinStickExampleMap (Mar 20, 2019, 3:43:07 PM)
-[2019.03.20-23.43.07:713][168]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
-[2019.03.20-23.43.07:717][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004166s)
-[2019.03.20-23.43.07:718][168]LogAIModule: Creating AISystem for world TwinStickExampleMap
-[2019.03.20-23.43.07:718][168]LogPlayLevel: PIE: World Init took: (0.001254s)
-[2019.03.20-23.43.07:719][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.005672s)
-[2019.03.20-23.43.07:860][168]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.20-23.43.07:876][168]LogInit: FAudioDevice initialized.
-[2019.03.20-23.43.07:884][168]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-23.43.07:918][168]LogLoad: Game class is 'TwinStickGameMode_C'
-[2019.03.20-23.43.07:920][168]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2019.03.20-19.43.07
-[2019.03.20-23.43.07:921][168]LogWorld: Bringing up level for play took: 0.001611
-[2019.03.20-23.43.07:952][168]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.852
-[2019.03.20-23.43.07:953][168]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.20-23.43.08:102][168]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
-[2019.03.20-23.43.16:370][645]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.20-23.43.16:371][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-23.43.16:394][645]LogSlate: Window 'Tanked Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.03.20-23.43.16:433][645]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.20-23.43.16:434][645]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.20-23.43.16:604][646]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2019.03.20-23.43.22:890][992]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/TwinStickExampleMap95185B4F42F9CB69FDC3D7AA93B06E9A.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
-[2019.03.20-23.43.22:924][992]LogFileHelpers: Saving map 'TwinStickExampleMap' took 0.327
-[2019.03.20-23.43.22:927][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/PlayerUI" FILE="C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/PlayerUI.uasset" SILENT=true
-[2019.03.20-23.43.22:941][992]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/PlayerUICA9D31FE4A9ADBDBC5AAEB93B281B28A.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/PlayerUI.uasset'
-[2019.03.20-23.44.03:571][748]LogSlate: Took 0.328780 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2019.03.20-23.44.21:659][338]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/TwinStickPawnB9D4299F41801DC586CA4F862EB453D0.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
-[2019.03.20-23.44.26:398][470]BlueprintLog: New page: Compile TwinStickPawn
-[2019.03.20-23.44.27:882][523]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/TwinStickPawnE932AF3549D80239FEF95CBC43D4B224.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
-[2019.03.20-23.47.22:185][650]Cmd: TRANSACTION UNDO
-[2019.03.20-23.47.22:185][650]LogEditorTransaction: Undo Add Node
-[2019.03.20-23.47.23:419][723]LogEditorTransaction: Redo Add Node
-[2019.03.20-23.49.42:054][121]BlueprintLog: New page: Compile PlayerUI
-[2019.03.20-23.49.42:071][121]LogBlueprint: Warning: [Compiler PlayerUI] 'Twin Stick Pawn' does not inherit from 'Character' ( Cast To TwinStickPawn  would always fail).
-[2019.03.20-23.49.42:131][121]LogBlueprint: Warning: [Compiler PlayerUI] [1258.64] Compile of PlayerUI successful, but with 1 Warning(s) [in 76 ms] (/Game/TwinStickBP/PlayerUI.PlayerUI)
-[2019.03.20-23.50.48:445][414]BlueprintLog: New page: Compile TwinStickPawn
-[2019.03.20-23.50.52:551][643]BlueprintLog: New page: Compile PlayerUI
-[2019.03.20-23.50.52:567][643]LogBlueprint: Warning: [Compiler PlayerUI] 'Twin Stick Pawn' does not inherit from 'Character' ( Cast To TwinStickPawn  would always fail).
-[2019.03.20-23.50.52:624][643]LogBlueprint: Warning: [Compiler PlayerUI] [1329.13] Compile of PlayerUI successful, but with 1 Warning(s) [in 73 ms] (/Game/TwinStickBP/PlayerUI.PlayerUI)
-[2019.03.20-23.50.57:855][946]BlueprintLog: New page: Compile PlayerUI
-[2019.03.20-23.50.57:871][946]LogBlueprint: Warning: [Compiler PlayerUI] 'Twin Stick Pawn' does not inherit from 'Character' ( Cast To TwinStickPawn  would always fail).
-[2019.03.20-23.50.57:928][946]LogBlueprint: Warning: [Compiler PlayerUI] [1334.43] Compile of PlayerUI successful, but with 1 Warning(s) [in 72 ms] (/Game/TwinStickBP/PlayerUI.PlayerUI)
-[2019.03.20-23.52.09:474][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/PlayerUI" FILE="C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/PlayerUI.uasset" SILENT=true
-[2019.03.20-23.52.09:502][636]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/PlayerUI7BF92EB64369B33335866699ECBF5838.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/PlayerUI.uasset'
-[2019.03.20-23.52.10:090][671]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.20-23.52.10:130][671]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.20-23.52.10:130][671]BlueprintLog: New page: Pre-Play auto-recompile
-[2019.03.20-23.52.10:152][671]LogPlayLevel: [PlayLevel] Compiling TwinStickPawn before play...
-[2019.03.20-23.52.10:362][671]LogPlayLevel: PlayLevel: Blueprint regeneration took 232 ms (1 blueprints)
-[2019.03.20-23.52.10:363][671]PIE: New page: PIE session: TwinStickExampleMap (Mar 20, 2019, 3:52:10 PM)
-[2019.03.20-23.52.10:363][671]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
-[2019.03.20-23.52.10:367][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003945s)
-[2019.03.20-23.52.10:367][671]LogAIModule: Creating AISystem for world TwinStickExampleMap
-[2019.03.20-23.52.10:368][671]LogPlayLevel: PIE: World Init took: (0.001118s)
-[2019.03.20-23.52.10:368][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.005224s)
-[2019.03.20-23.52.10:410][671]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.20-23.52.10:426][671]LogInit: FAudioDevice initialized.
-[2019.03.20-23.52.10:433][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-23.52.10:466][671]LogLoad: Game class is 'TwinStickGameMode_C'
-[2019.03.20-23.52.10:469][671]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2019.03.20-19.52.10
-[2019.03.20-23.52.10:469][671]LogWorld: Bringing up level for play took: 0.001545
-[2019.03.20-23.52.10:484][671]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.617
-[2019.03.20-23.52.10:484][671]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.20-23.52.15:881][972]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.20-23.52.15:881][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-23.52.15:899][972]LogSlate: Window 'Tanked Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.03.20-23.52.15:930][972]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.20-23.52.15:931][972]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.20-23.52.15:983][973]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2019.03.20-23.54.06:512][202]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2019.03.20-23.56.01:602][260]BlueprintLog: New page: Compile PlayerUI
-[2019.03.20-23.56.03:266][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/PlayerUI" FILE="C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/PlayerUI.uasset" SILENT=true
-[2019.03.20-23.56.03:291][436]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/PlayerUIE574258E4FA951CFF1E45C861E5491D7.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/PlayerUI.uasset'
-[2019.03.20-23.56.04:598][591]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.20-23.56.04:623][591]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.20-23.56.04:623][591]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.03.20-23.56.04:623][591]PIE: New page: PIE session: TwinStickExampleMap (Mar 20, 2019, 3:56:04 PM)
-[2019.03.20-23.56.04:623][591]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
-[2019.03.20-23.56.04:628][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004857s)
-[2019.03.20-23.56.04:629][591]LogAIModule: Creating AISystem for world TwinStickExampleMap
-[2019.03.20-23.56.04:629][591]LogPlayLevel: PIE: World Init took: (0.000906s)
-[2019.03.20-23.56.04:629][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.005973s)
-[2019.03.20-23.56.04:671][591]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.20-23.56.04:688][591]LogInit: FAudioDevice initialized.
-[2019.03.20-23.56.04:695][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-23.56.04:724][591]LogLoad: Game class is 'TwinStickGameMode_C'
-[2019.03.20-23.56.04:726][591]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2019.03.20-19.56.04
-[2019.03.20-23.56.04:727][591]LogWorld: Bringing up level for play took: 0.001342
-[2019.03.20-23.56.04:741][591]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.36
-[2019.03.20-23.56.04:741][591]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.20-23.56.08:736][880]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.20-23.56.08:737][880]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-23.56.08:761][880]LogSlate: Window 'Tanked Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.03.20-23.56.08:794][880]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.20-23.56.08:795][880]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.20-23.56.08:855][881]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2019.03.20-23.56.50:494][600]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/TwinStickExampleMap_Auto26D22BE4046ABCBF8DDD4F999B5FC748A.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/Autosaves/Game/TwinStickBP/Maps/TwinStickExampleMap_Auto2.umap'
-[2019.03.20-23.56.50:501][600]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TwinStickBP/Maps/TwinStickExampleMap' took 0.241
-[2019.03.20-23.56.50:501][600]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.241
-[2019.03.20-23.56.50:504][600]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/Blueprints/TwinStickPawn] ([1] browsable assets)...
-[2019.03.20-23.56.50:524][600]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn]
-[2019.03.20-23.56.50:524][600]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/Blueprints/TwinStickPawn]
-[2019.03.20-23.56.50:608][600]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/TwinStickPawn_Auto2E23D13EE4B8DB70E1FA369BFCF7450CC.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/Autosaves/Game/TwinStickBP/Blueprints/TwinStickPawn_Auto2.uasset'
-[2019.03.20-23.56.50:610][600]LogFileHelpers: Auto-saving content packages took 0.107
-[2019.03.21-00.02.35:528][838]BlueprintLog: New page: Compile PlayerUI
-[2019.03.21-00.02.36:432][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/PlayerUI" FILE="C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/PlayerUI.uasset" SILENT=true
-[2019.03.21-00.02.36:461][923]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/PlayerUIC31331474F27ED40C310B7A8543605B5.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/PlayerUI.uasset'
-[2019.03.21-00.02.38:089][116]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.21-00.02.38:124][116]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.21-00.02.38:124][116]BlueprintLog: New page: Pre-Play auto-recompile
-[2019.03.21-00.02.38:146][116]LogPlayLevel: [PlayLevel] Compiling TwinStickPawn before play...
-[2019.03.21-00.02.38:356][116]LogPlayLevel: PlayLevel: Blueprint regeneration took 232 ms (1 blueprints)
-[2019.03.21-00.02.38:356][116]PIE: New page: PIE session: TwinStickExampleMap (Mar 20, 2019, 4:02:38 PM)
-[2019.03.21-00.02.38:356][116]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
-[2019.03.21-00.02.38:361][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004409s)
-[2019.03.21-00.02.38:362][116]LogAIModule: Creating AISystem for world TwinStickExampleMap
-[2019.03.21-00.02.38:362][116]LogPlayLevel: PIE: World Init took: (0.001089s)
-[2019.03.21-00.02.38:362][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.005729s)
-[2019.03.21-00.02.38:404][116]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.21-00.02.38:420][116]LogInit: FAudioDevice initialized.
-[2019.03.21-00.02.38:427][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.21-00.02.38:459][116]LogLoad: Game class is 'TwinStickGameMode_C'
-[2019.03.21-00.02.38:461][116]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2019.03.20-20.02.38
-[2019.03.21-00.02.38:462][116]LogWorld: Bringing up level for play took: 0.001547
-[2019.03.21-00.02.38:476][116]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.624
-[2019.03.21-00.02.38:476][116]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.21-00.02.41:535][327]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.21-00.02.41:536][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.21-00.02.41:561][327]LogSlate: Window 'Tanked Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.03.21-00.02.41:595][327]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.21-00.02.41:596][327]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.21-00.02.41:656][328]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2019.03.21-00.04.38:521][171]BlueprintLog: New page: Compile TwinStickPawn
-[2019.03.21-00.04.39:817][254]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/TwinStickPawn0D8ECAE74F4F803F885084A0C8A19BD8.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
-[2019.03.21-00.04.40:612][347]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.21-00.04.40:662][347]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.21-00.04.40:662][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.03.21-00.04.40:662][347]PIE: New page: PIE session: TwinStickExampleMap (Mar 20, 2019, 4:04:40 PM)
-[2019.03.21-00.04.40:662][347]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
-[2019.03.21-00.04.40:666][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003991s)
-[2019.03.21-00.04.40:667][347]LogAIModule: Creating AISystem for world TwinStickExampleMap
-[2019.03.21-00.04.40:667][347]LogPlayLevel: PIE: World Init took: (0.001025s)
-[2019.03.21-00.04.40:667][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.005183s)
-[2019.03.21-00.04.40:708][347]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.21-00.04.40:724][347]LogInit: FAudioDevice initialized.
-[2019.03.21-00.04.40:730][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.21-00.04.40:766][347]LogLoad: Game class is 'TwinStickGameMode_C'
-[2019.03.21-00.04.40:769][347]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2019.03.20-20.04.40
-[2019.03.21-00.04.40:769][347]LogWorld: Bringing up level for play took: 0.001504
-[2019.03.21-00.04.40:785][347]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.316
-[2019.03.21-00.04.40:785][347]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.21-00.04.47:968][791]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.21-00.04.47:968][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.21-00.04.47:994][791]LogSlate: Window 'Tanked Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.03.21-00.04.48:033][791]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.21-00.04.48:034][791]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.21-00.04.48:146][792]LogPlayLevel: Display: Destroying online subsystem :Context_14
-[2019.03.21-00.05.58:140][878]BlueprintLog: New page: Compile PlayerUI
-[2019.03.21-00.05.58:162][878]LogBlueprint: Warning: [Compiler PlayerUI] 'Twin Stick Pawn' does not inherit from 'Character' ( Cast To TwinStickPawn  would always fail).
-[2019.03.21-00.05.58:221][878]LogBlueprint: Warning: [Compiler PlayerUI] [2234.73] Compile of PlayerUI successful, but with 1 Warning(s) [in 80 ms] (/Game/TwinStickBP/PlayerUI.PlayerUI)
-[2019.03.21-00.06.20:052][465]BlueprintLog: New page: Compile PlayerUI
-[2019.03.21-00.06.20:786][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/PlayerUI" FILE="C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/PlayerUI.uasset" SILENT=true
-[2019.03.21-00.06.20:809][531]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/PlayerUIF7EC4C4C472ADBD7C23C95B4610B22AC.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/PlayerUI.uasset'
-[2019.03.21-00.06.21:995][671]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.21-00.06.22:015][671]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.21-00.06.22:015][671]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.03.21-00.06.22:016][671]PIE: New page: PIE session: TwinStickExampleMap (Mar 20, 2019, 4:06:22 PM)
-[2019.03.21-00.06.22:016][671]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
-[2019.03.21-00.06.22:020][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004004s)
-[2019.03.21-00.06.22:021][671]LogAIModule: Creating AISystem for world TwinStickExampleMap
-[2019.03.21-00.06.22:021][671]LogPlayLevel: PIE: World Init took: (0.001221s)
-[2019.03.21-00.06.22:021][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.005439s)
-[2019.03.21-00.06.22:064][671]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.21-00.06.22:081][671]LogInit: FAudioDevice initialized.
-[2019.03.21-00.06.22:087][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.21-00.06.22:120][671]LogLoad: Game class is 'TwinStickGameMode_C'
-[2019.03.21-00.06.22:122][671]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2019.03.20-20.06.22
-[2019.03.21-00.06.22:123][671]LogWorld: Bringing up level for play took: 0.002177
-[2019.03.21-00.06.22:137][671]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 1.036
-[2019.03.21-00.06.22:138][671]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.21-00.06.24:522][838]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.21-00.06.24:523][838]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.21-00.06.24:547][838]LogSlate: Window 'Tanked Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.03.21-00.06.24:584][838]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.21-00.06.24:585][838]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.21-00.06.24:643][839]LogPlayLevel: Display: Destroying online subsystem :Context_15
-[2019.03.21-00.06.31:809][626]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetMathLibrary::Divide_FloatFloat' [Element not found.]
-[2019.03.21-00.07.10:322][194]BlueprintLog: New page: Compile PlayerUI
-[2019.03.21-00.07.11:208][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/PlayerUI" FILE="C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/PlayerUI.uasset" SILENT=true
-[2019.03.21-00.07.11:231][278]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/PlayerUI9CEDDC7A4E3AEAC3A90323A7B26693DE.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/PlayerUI.uasset'
-[2019.03.21-00.07.28:321][847]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/TwinStickExampleMapBD243273436F2C24871F6A8C15CB9F86.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
-[2019.03.21-00.07.28:961][847]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/TwinStickExampleMap_BuiltData6C493AA147BD9CEB9886F2A2AA0C9650.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
-[2019.03.21-00.07.40:913][700]LogEditorViewport: Clicking on Actor (LMB): TwinStickPawn_C (TwinStickPawn)
-[2019.03.21-00.07.49:002][173]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.21-00.07.49:099][179]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.21-00.07.49:126][179]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.21-00.07.49:126][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.03.21-00.07.49:126][179]PIE: New page: PIE session: TwinStickExampleMap (Mar 20, 2019, 4:07:49 PM)
-[2019.03.21-00.07.49:126][179]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
-[2019.03.21-00.07.49:130][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004074s)
-[2019.03.21-00.07.49:131][179]LogAIModule: Creating AISystem for world TwinStickExampleMap
-[2019.03.21-00.07.49:131][179]LogPlayLevel: PIE: World Init took: (0.001021s)
-[2019.03.21-00.07.49:131][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.005252s)
-[2019.03.21-00.07.49:200][179]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.21-00.07.49:217][179]LogInit: FAudioDevice initialized.
-[2019.03.21-00.07.49:246][179]LogLoad: Game class is 'TwinStickGameMode_C'
-[2019.03.21-00.07.49:248][179]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2019.03.20-20.07.49
-[2019.03.21-00.07.49:249][179]LogWorld: Bringing up level for play took: 0.001326
-[2019.03.21-00.07.49:261][179]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.161
-[2019.03.21-00.07.49:261][179]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.21-00.08.25:224][782]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.21-00.08.25:224][782]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.21-00.08.25:263][782]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.21-00.08.25:264][782]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.21-00.08.25:303][782]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.21-00.08.25:337][784]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2019.03.21-00.08.40:687][510]BlueprintLog: New page: Compile PlayerUI
-[2019.03.21-00.08.40:698][510]LogBlueprint: Warning: [Compiler PlayerUI] 'Twin Stick Pawn' does not inherit from 'Player Controller' ( Cast To TwinStickPawn  would always fail).
-[2019.03.21-00.08.40:757][510]LogBlueprint: Warning: [Compiler PlayerUI] [2397.26] Compile of PlayerUI successful, but with 1 Warning(s) [in 71 ms] (/Game/TwinStickBP/PlayerUI.PlayerUI)
-[2019.03.21-00.12.18:024][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/PlayerUI" FILE="C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/PlayerUI.uasset" SILENT=true
-[2019.03.21-00.12.18:052][656]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/PlayerUIBE9B90874EE966BC9B4163B4CB8961CB.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/PlayerUI.uasset'
-[2019.03.21-00.12.18:443][701]BlueprintLog: New page: Compile PlayerUI
-[2019.03.21-00.12.19:352][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/PlayerUI" FILE="C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/PlayerUI.uasset" SILENT=true
-[2019.03.21-00.12.19:374][787]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/PlayerUIDCE5B7FD4C66152F56211FB45941E073.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/PlayerUI.uasset'
-[2019.03.21-00.12.19:993][858]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.21-00.12.20:027][858]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.21-00.12.20:027][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.03.21-00.12.20:027][858]PIE: New page: PIE session: TwinStickExampleMap (Mar 20, 2019, 4:12:20 PM)
-[2019.03.21-00.12.20:027][858]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
-[2019.03.21-00.12.20:032][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004210s)
-[2019.03.21-00.12.20:033][858]LogAIModule: Creating AISystem for world TwinStickExampleMap
-[2019.03.21-00.12.20:033][858]LogPlayLevel: PIE: World Init took: (0.001049s)
-[2019.03.21-00.12.20:033][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.005463s)
-[2019.03.21-00.12.20:074][858]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.21-00.12.20:090][858]LogInit: FAudioDevice initialized.
-[2019.03.21-00.12.20:097][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.21-00.12.20:132][858]LogLoad: Game class is 'TwinStickGameMode_C'
-[2019.03.21-00.12.20:134][858]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2019.03.20-20.12.20
-[2019.03.21-00.12.20:135][858]LogWorld: Bringing up level for play took: 0.001571
-[2019.03.21-00.12.20:149][858]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 1.049
-[2019.03.21-00.12.20:149][858]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.21-00.12.24:060][130]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.21-00.12.24:062][130]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.21-00.12.24:086][130]LogSlate: Window 'Tanked Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.03.21-00.12.24:119][130]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.21-00.12.24:120][130]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.03.21-00.12.24:178][131]LogPlayLevel: Display: Destroying online subsystem :Context_17
-[2019.03.21-00.15.08:004][ 79]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/TwinStickExampleMap670168A844B0A6C72CB0E18192917D3E.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
-[2019.03.21-00.15.08:238][ 79]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/TwinStickExampleMap_BuiltData825CA11D41AE7147B3E923A933490CCD.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
-[2019.03.21-00.15.11:574][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/PlayerUI" FILE="C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/PlayerUI.uasset" SILENT=true
-[2019.03.21-00.15.11:597][354]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/PlayerUI911E98FA4648F5FC2A10C7B9E31BD115.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/PlayerUI.uasset'
-[2019.03.21-00.15.13:315][465]LogSavePackage: Moving 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/TwinStickPawn480DB3C84877955593E6C492CD55D309.tmp' to 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
-[2019.03.21-00.15.21:441][129]SourceControl: fatal: D:/Epic Games/UE_4.20/Engine/Content: 'D:/Epic Games/UE_4.20/Engine/Content' is outside repository
-[2019.03.21-00.15.29:676][129]LogSlate: Window 'Submit Files' being destroyed
-[2019.03.21-00.15.30:410][129]LogSourceControl: commit successful: [master 98c298a] started ui work
-[2019.03.21-00.15.30:575][129]SourceControl: [master 98c298a] started ui work
-[2019.03.21-00.15.30:575][129]SourceControl:  4 files changed, 0 insertions(+), 0 deletions(-)
-[2019.03.21-00.15.30:575][129]SourceControl:  rewrite Tanked/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset (91%)
-[2019.03.21-00.15.30:575][129]SourceControl:  create mode 100644 Tanked/Content/TwinStickBP/PlayerUI.uasset
-[2019.03.21-00.15.30:580][129]SourceControl: Commited [master 98c298a] started ui work.
+[2019.03.24-16.38.28:969][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.24-16.38.28:969][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.24-16.38.28:990][  0]LogHAL: Display: Platform has ~ 8 GB [8482430976 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.24-16.38.28:990][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.24-16.38.28:990][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.24-16.38.28:991][  0]LogInit: Computer: DESKTOP-USO043J
+[2019.03.24-16.38.28:991][  0]LogInit: User: Zanthous
+[2019.03.24-16.38.28:991][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.24-16.38.28:991][  0]LogInit: High frequency timer resolution =3.919319 MHz
+[2019.03.24-16.38.28:991][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.03.24-16.38.28:991][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.24-16.38.28:991][  0]LogMemory: Process Physical Memory: 100.63 MB used, 100.63 MB peak
+[2019.03.24-16.38.28:991][  0]LogMemory: Process Virtual Memory: 91.39 MB used, 91.39 MB peak
+[2019.03.24-16.38.28:991][  0]LogMemory: Physical Memory: 6927.87 MB used,  1161.61 MB free, 8089.48 MB total
+[2019.03.24-16.38.28:991][  0]LogMemory: Virtual Memory: 544.95 MB used,  1161.61 MB free, 134217728.00 MB total
+[2019.03.24-16.38.29:010][  0]LogInit: Using OS detected language (en-US).
+[2019.03.24-16.38.29:010][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.24-16.38.29:011][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.24-16.38.29:472][  0]LogStreaming: Display: Took  0.462s to InitEngineTextLocalization.
+[2019.03.24-16.38.29:472][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.24-16.38.29:536][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.24-16.38.29:536][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.24-16.38.29:798][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2019.03.24-16.38.29:798][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.24-16.38.29:874][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.03.24-16.38.29:874][  0]LogD3D11RHI:       4043/0/4044 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.03.24-16.38.29:877][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.24-16.38.29:877][  0]LogD3D11RHI:       0/0/4044 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.24-16.38.29:877][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.24-16.38.29:891][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.24-16.38.29:891][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.24-16.38.29:891][  0]LogWindows: EnumDisplayDevices:
+[2019.03.24-16.38.29:891][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.03.24-16.38.29:892][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.03.24-16.38.29:892][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.03.24-16.38.29:892][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.03.24-16.38.29:892][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.24-16.38.29:892][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.03.24-16.38.29:892][  0]LogD3D11RHI:   Driver Version: 399.24 (internal:24.21.13.9924, unified:399.24)
+[2019.03.24-16.38.29:892][  0]LogD3D11RHI:      Driver Date: 9-5-2018
+[2019.03.24-16.38.29:892][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.03.24-16.38.29:952][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.24-16.38.29:976][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.24-16.38.29:981][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../Users/Zanthous/Documents/maze/NetworkingResearch/Tanked/Intermediate/Shaders/WorkingDirectory/11872/).
+[2019.03.24-16.38.29:982][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Zanthous/AppData/Local/Temp/UnrealShaderWorkingDir/07F722004D0ED0D743D505894ED13113/'.
+[2019.03.24-16.38.30:407][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.24-16.38.30:434][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.24-16.38.30:458][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.24-16.38.30:483][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.24-16.38.30:506][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.24-16.38.30:529][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.24-16.38.30:552][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.24-16.38.30:573][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.24-16.38.30:583][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.24-16.38.30:735][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.24-16.38.30:735][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.24-16.38.30:735][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.24-16.38.30:735][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.24-16.38.30:735][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.24-16.38.30:735][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.24-16.38.30:735][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.24-16.38.30:735][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.24-16.38.30:735][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.24-16.38.30:735][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.24-16.38.30:735][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.24-16.38.30:735][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.24-16.38.30:735][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.24-16.38.30:735][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.24-16.38.30:735][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.24-16.38.30:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.24-16.38.30:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.24-16.38.30:736][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.24-16.38.30:737][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.24-16.38.30:811][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.24-16.38.30:811][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.24-16.38.30:854][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.24-16.38.30:854][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.24-16.38.30:873][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.24-16.38.30:892][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.24-16.38.30:912][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.24-16.38.30:932][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.24-16.38.30:947][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.24-16.38.30:947][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.24-16.38.31:027][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.24-16.38.31:027][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.24-16.38.31:027][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.24-16.38.32:160][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.24-16.38.32:260][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/Zanthous/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.24-16.38.32:260][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Zanthous/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.24-16.38.32:260][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/Zanthous/Documents/maze/NetworkingResearch/Tanked/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.24-16.38.32:260][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.24-16.38.32:260][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/Zanthous/Documents/maze/NetworkingResearch/Tanked/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.24-16.38.32:260][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.24-16.38.32:276][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.24-16.38.32:288][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zanthous/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.24-16.38.32:288][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.24-16.38.32:288][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.24-16.38.32:317][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.24-16.38.32:319][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.24-16.38.32:320][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.24-16.38.32:418][  0]LogAssetRegistry: FAssetRegistry took 0.0298 seconds to start up
+[2019.03.24-16.38.32:927][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.24-16.38.33:099][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.24-16.38.33:103][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.24-16.38.33:103][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.24-16.38.33:103][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.24-16.38.33:103][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.24-16.38.33:129][  0]LogNetVersion: Tanked 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 32475459)
+[2019.03.24-16.38.33:799][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.147416 seconds
+[2019.03.24-16.38.33:809][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.24-16.38.33:809][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.03.24-16.38.33:809][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.24-16.38.34:940][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.24-16.38.34:955][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.24-16.38.35:194][  0]SourceControl: Source control is disabled
+[2019.03.24-16.38.36:311][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.24-16.38.36:390][  0]LogOcInput: OculusInput pre-init called
+[2019.03.24-16.38.36:470][  0]LogEngine: Initializing Engine...
+[2019.03.24-16.38.36:474][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2019.03.24-16.38.36:477][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.24-16.38.36:477][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.24-16.38.36:477][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.24-16.38.36:477][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.24-16.38.36:838][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.24-16.38.36:860][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.24-16.38.36:892][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.24-16.38.36:908][  0]LogInit: FAudioDevice initialized.
+[2019.03.24-16.38.36:909][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.24-16.38.37:057][  0]LogDerivedDataCache: Saved boot cache 0.15s 71MB C:/Users/Zanthous/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.24-16.38.37:077][  0]LogInit: Texture streaming: Enabled
+[2019.03.24-16.38.37:104][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.24-16.38.37:133][  0]LogInit: Transaction tracking system initialized
+[2019.03.24-16.38.37:177][  0]BlueprintLog: New page: Editor Load
+[2019.03.24-16.38.37:311][  0]LocalizationService: Localization service is disabled
+[2019.03.24-16.38.43:852][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zanthous/Documents/maze/NetworkingResearch/Tanked/Content/' took 0.06s
+[2019.03.24-16.38.43:852][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.24-16.38.43:853][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.24-16.38.43:883][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.24-16.38.43:883][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.24-16.38.43:883][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.24-16.38.43:884][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2019.03.24-16.38.43:884][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.24-16.38.44:132][  0]Cmd: MAP LOAD FILE="../../../../../Users/Zanthous/Documents/maze/NetworkingResearch/Tanked/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.24-16.38.44:133][  0]LightingResults: New page: Lighting Build
+[2019.03.24-16.38.44:139][  0]MapCheck: New page: Map Check
+[2019.03.24-16.38.44:139][  0]LightingResults: New page: Lighting Build
+[2019.03.24-16.38.56:870][  0]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2019.03.24-16.38.56:894][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.24-16.38.56:997][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.24-16.38.57:131][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 133.595ms to complete.
+[2019.03.24-16.38.57:131][  0]LogFileHelpers: Loading map 'TwinStickExampleMap' took 12.999
+[2019.03.24-16.38.57:222][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.24-16.38.57:222][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.24-16.38.57:442][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.24-16.38.57:462][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.24-16.38.57:479][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.24-16.38.57:495][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.24-16.38.57:524][  0]LogCollectionManager: Loaded 0 collections in 0.003675 seconds
+[2019.03.24-16.38.57:614][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zanthous/Documents/maze/NetworkingResearch/Tanked/Saved/Collections/' took 0.01s
+[2019.03.24-16.38.57:614][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zanthous/Documents/maze/NetworkingResearch/Tanked/Content/Developers/Zanthous/Collections/' took 0.01s
+[2019.03.24-16.38.57:614][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zanthous/Documents/maze/NetworkingResearch/Tanked/Content/Collections/' took 0.01s
+[2019.03.24-16.38.57:614][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.03.24-16.38.57:644][  0]LogContentBrowser: Native class hierarchy populated in 0.0269 seconds. Added 2573 classes and 605 folders.
+[2019.03.24-16.38.57:673][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.03.24-16.38.58:303][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.03.24-16.38.58:401][  0]LogSlate: Took 0.010326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.24-16.38.58:412][  0]LogSlate: Took 0.002006 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.24-16.38.58:431][  0]LogSlate: Took 0.012301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.24-16.38.58:648][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.03.24-16.38.58:953][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.03.24-16.38.58:953][  0]LogLoad: (Engine Initialization) Total time: 32.05 seconds
+[2019.03.24-16.38.58:953][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.24-16.38.59:032][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.24-16.38.59:130][  0]LogSlate: Took 0.010390 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.24-16.38.59:336][  3]LogAssetRegistry: Asset discovery search completed in 26.9405 seconds
+[2019.03.24-16.38.59:340][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.24-16.38.59:340][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000125 seconds (updated 0 objects)
+[2019.03.24-16.39.00:034][ 69]LogSlate: Took 0.000437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.24-16.39.06:887][793]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.24-16.39.19:860][320]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn
+[2019.03.24-16.39.20:917][320]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 116 classes and 0 folders.
+[2019.03.24-16.39.22:574][320]LogSlate: Took 0.008687 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.24-16.39.22:950][321]LogSlate: Took 0.008611 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.24-16.41.44:660][106]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.24-16.41.44:689][106]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.41.44:690][106]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.24-16.41.44:714][106]LogPlayLevel: [PlayLevel] Compiling TwinStickPawn before play...
+[2019.03.24-16.41.45:063][106]LogPlayLevel: PlayLevel: Blueprint regeneration took 373 ms (1 blueprints)
+[2019.03.24-16.41.45:087][106]PIE: New page: PIE session: TwinStickExampleMap (Mar 24, 2019, 8:41:45 AM)
+[2019.03.24-16.41.45:088][106]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2019.03.24-16.41.45:097][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009509s)
+[2019.03.24-16.41.45:099][106]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2019.03.24-16.41.45:100][106]LogPlayLevel: PIE: World Init took: (0.002110s)
+[2019.03.24-16.41.45:100][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.012179s)
+[2019.03.24-16.41.45:230][106]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.24-16.41.45:241][106]LogInit: FAudioDevice initialized.
+[2019.03.24-16.41.45:288][106]LogLoad: Game class is 'TwinStickGameMode_C'
+[2019.03.24-16.41.45:300][106]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2019.03.24-12.41.45
+[2019.03.24-16.41.45:303][106]LogWorld: Bringing up level for play took: 0.003599
+[2019.03.24-16.41.45:336][106]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.03.24-16.41.45:339][106]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.222
+[2019.03.24-16.41.45:339][106]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.41.50:832][594]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.41.50:833][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.24-16.41.50:872][594]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.24-16.41.50:873][594]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.41.50:989][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.24-16.41.51:036][595]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.03.24-16.41.51:770][649]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.24-16.43.20:471][ 94]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.24-16.43.20:507][ 94]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.43.20:507][ 94]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.24-16.43.20:532][ 94]LogPlayLevel: [PlayLevel] Compiling TwinStickPawn before play...
+[2019.03.24-16.43.20:833][ 94]LogPlayLevel: PlayLevel: Blueprint regeneration took 326 ms (1 blueprints)
+[2019.03.24-16.43.20:834][ 94]PIE: New page: PIE session: TwinStickExampleMap (Mar 24, 2019, 8:43:20 AM)
+[2019.03.24-16.43.20:834][ 94]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2019.03.24-16.43.20:839][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004873s)
+[2019.03.24-16.43.20:839][ 94]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2019.03.24-16.43.20:840][ 94]LogPlayLevel: PIE: World Init took: (0.001059s)
+[2019.03.24-16.43.20:840][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.006124s)
+[2019.03.24-16.43.20:958][ 94]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.24-16.43.20:969][ 94]LogInit: FAudioDevice initialized.
+[2019.03.24-16.43.21:006][ 94]LogLoad: Game class is 'TwinStickGameMode_C'
+[2019.03.24-16.43.21:008][ 94]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2019.03.24-12.43.21
+[2019.03.24-16.43.21:009][ 94]LogWorld: Bringing up level for play took: 0.001575
+[2019.03.24-16.43.21:021][ 94]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.096
+[2019.03.24-16.43.21:021][ 94]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.43.26:819][622]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.43.26:819][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.24-16.43.26:859][622]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.24-16.43.26:859][622]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.43.26:967][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.24-16.43.27:011][623]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.03.24-16.43.31:684][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.24-16.43.52:931][474]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.24-16.43.52:972][474]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.43.52:972][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.24-16.43.52:972][474]PIE: New page: PIE session: TwinStickExampleMap (Mar 24, 2019, 8:43:52 AM)
+[2019.03.24-16.43.52:972][474]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2019.03.24-16.43.52:981][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008727s)
+[2019.03.24-16.43.52:982][474]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2019.03.24-16.43.52:983][474]LogPlayLevel: PIE: World Init took: (0.001312s)
+[2019.03.24-16.43.52:983][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.010265s)
+[2019.03.24-16.43.53:097][474]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.24-16.43.53:109][474]LogInit: FAudioDevice initialized.
+[2019.03.24-16.43.53:145][474]LogLoad: Game class is 'TwinStickGameMode_C'
+[2019.03.24-16.43.53:146][474]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2019.03.24-12.43.53
+[2019.03.24-16.43.53:147][474]LogWorld: Bringing up level for play took: 0.001432
+[2019.03.24-16.43.53:160][474]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.043
+[2019.03.24-16.43.53:160][474]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.44.07:381][680]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.44.07:381][680]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.24-16.44.07:433][680]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.24-16.44.07:433][680]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.44.07:549][680]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.24-16.44.07:629][681]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.03.24-16.44.08:767][774]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.24-16.44.11:747][ 10]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.24-16.44.11:769][ 10]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.44.11:770][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.24-16.44.11:770][ 10]PIE: New page: PIE session: TwinStickExampleMap (Mar 24, 2019, 8:44:11 AM)
+[2019.03.24-16.44.11:770][ 10]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2019.03.24-16.44.11:776][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005923s)
+[2019.03.24-16.44.11:777][ 10]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2019.03.24-16.44.11:777][ 10]LogPlayLevel: PIE: World Init took: (0.001286s)
+[2019.03.24-16.44.11:777][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.007376s)
+[2019.03.24-16.44.11:898][ 10]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.24-16.44.11:909][ 10]LogInit: FAudioDevice initialized.
+[2019.03.24-16.44.11:940][ 10]LogLoad: Game class is 'TwinStickGameMode_C'
+[2019.03.24-16.44.11:942][ 10]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2019.03.24-12.44.11
+[2019.03.24-16.44.11:942][ 10]LogWorld: Bringing up level for play took: 0.001500
+[2019.03.24-16.44.11:955][ 10]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.838
+[2019.03.24-16.44.11:956][ 10]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.44.20:115][683]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.44.20:116][683]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.24-16.44.20:167][683]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.24-16.44.20:167][683]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.44.20:272][683]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.24-16.44.20:358][684]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.03.24-16.44.21:348][765]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.24-16.44.24:069][986]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.24-16.44.24:090][986]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.44.24:090][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.24-16.44.24:091][986]PIE: New page: PIE session: TwinStickExampleMap (Mar 24, 2019, 8:44:24 AM)
+[2019.03.24-16.44.24:091][986]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2019.03.24-16.44.24:097][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006025s)
+[2019.03.24-16.44.24:098][986]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2019.03.24-16.44.24:098][986]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2019.03.24-16.44.24:098][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.007235s)
+[2019.03.24-16.44.24:222][986]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.24-16.44.24:232][986]LogInit: FAudioDevice initialized.
+[2019.03.24-16.44.24:267][986]LogLoad: Game class is 'TwinStickGameMode_C'
+[2019.03.24-16.44.24:269][986]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2019.03.24-12.44.24
+[2019.03.24-16.44.24:269][986]LogWorld: Bringing up level for play took: 0.001587
+[2019.03.24-16.44.24:282][986]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 1.165
+[2019.03.24-16.44.24:282][986]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.47.43:165][476]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.47.43:165][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.24-16.47.43:215][476]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.24-16.47.43:215][476]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.47.43:332][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.24-16.47.43:426][477]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.03.24-16.47.48:720][879]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.24-16.48.18:971][310]LogEditorTransaction: Undo Move Node
+[2019.03.24-16.48.19:181][317]LogEditorTransaction: Undo Create Pin Link
+[2019.03.24-16.48.19:392][321]LogEditorTransaction: Undo Delete current selection
+[2019.03.24-16.48.20:058][364]LogEditorTransaction: Undo Delete current selection
+[2019.03.24-16.49.14:114][534]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.24-16.49.14:137][534]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.49.14:137][534]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.24-16.49.14:160][534]LogPlayLevel: [PlayLevel] Compiling TwinStickPawn before play...
+[2019.03.24-16.49.14:476][534]LogPlayLevel: PlayLevel: Blueprint regeneration took 338 ms (1 blueprints)
+[2019.03.24-16.49.14:476][534]PIE: New page: PIE session: TwinStickExampleMap (Mar 24, 2019, 8:49:14 AM)
+[2019.03.24-16.49.14:476][534]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2019.03.24-16.49.14:481][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004799s)
+[2019.03.24-16.49.14:482][534]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2019.03.24-16.49.14:482][534]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2019.03.24-16.49.14:482][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.006053s)
+[2019.03.24-16.49.14:607][534]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.24-16.49.14:618][534]LogInit: FAudioDevice initialized.
+[2019.03.24-16.49.14:648][534]LogLoad: Game class is 'TwinStickGameMode_C'
+[2019.03.24-16.49.14:650][534]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2019.03.24-12.49.14
+[2019.03.24-16.49.14:651][534]LogWorld: Bringing up level for play took: 0.001408
+[2019.03.24-16.49.14:663][534]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.454
+[2019.03.24-16.49.14:664][534]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.49.18:682][906]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.49.18:682][906]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.24-16.49.18:718][906]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.24-16.49.18:719][906]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.49.18:831][906]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.24-16.49.18:868][907]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.03.24-16.49.19:619][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.24-16.50.15:850][705]LogEditorTransaction: Undo Move Node
+[2019.03.24-16.50.16:937][788]LogEditorTransaction: Undo Move Node
+[2019.03.24-16.50.17:116][796]LogEditorTransaction: Undo Create Pin Link
+[2019.03.24-16.50.17:333][806]LogEditorTransaction: Undo Create Pin Link
+[2019.03.24-16.50.17:525][816]LogEditorTransaction: Undo Create Pin Link
+[2019.03.24-16.50.17:708][824]LogEditorTransaction: Undo Move Node
+[2019.03.24-16.50.17:918][835]LogEditorTransaction: Undo Add Node
+[2019.03.24-16.50.18:123][846]LogEditorTransaction: Undo Delete current selection
+[2019.03.24-16.50.18:391][862]LogEditorTransaction: Undo Delete current selection
+[2019.03.24-16.50.18:649][878]LogEditorTransaction: Undo Delete current selection
+[2019.03.24-16.50.20:038][984]LogEditorTransaction: Redo Delete current selection
+[2019.03.24-16.50.20:284][998]LogEditorTransaction: Redo Delete current selection
+[2019.03.24-16.50.20:475][  8]LogEditorTransaction: Redo Delete current selection
+[2019.03.24-16.50.20:656][ 17]LogEditorTransaction: Redo Add Node
+[2019.03.24-16.50.20:821][ 24]LogEditorTransaction: Redo Move Node
+[2019.03.24-16.50.20:990][ 31]LogEditorTransaction: Redo Create Pin Link
+[2019.03.24-16.50.21:329][ 51]LogEditorTransaction: Redo Create Pin Link
+[2019.03.24-16.50.21:480][ 56]LogEditorTransaction: Redo Create Pin Link
+[2019.03.24-16.50.21:624][ 61]LogEditorTransaction: Redo Move Node
+[2019.03.24-16.50.21:761][ 65]LogEditorTransaction: Redo Move Node
+[2019.03.24-16.50.53:221][457]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.24-16.50.53:257][457]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.50.53:257][457]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.24-16.50.53:281][457]LogPlayLevel: [PlayLevel] Compiling TwinStickPawn before play...
+[2019.03.24-16.50.53:611][457]LogPlayLevel: PlayLevel: Blueprint regeneration took 353 ms (1 blueprints)
+[2019.03.24-16.50.53:611][457]PIE: New page: PIE session: TwinStickExampleMap (Mar 24, 2019, 8:50:53 AM)
+[2019.03.24-16.50.53:611][457]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2019.03.24-16.50.53:616][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005315s)
+[2019.03.24-16.50.53:617][457]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2019.03.24-16.50.53:618][457]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2019.03.24-16.50.53:618][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.006600s)
+[2019.03.24-16.50.53:744][457]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.24-16.50.53:755][457]LogInit: FAudioDevice initialized.
+[2019.03.24-16.50.53:784][457]LogLoad: Game class is 'TwinStickGameMode_C'
+[2019.03.24-16.50.53:786][457]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2019.03.24-12.50.53
+[2019.03.24-16.50.53:786][457]LogWorld: Bringing up level for play took: 0.001471
+[2019.03.24-16.50.53:799][457]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.682
+[2019.03.24-16.50.53:799][457]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.51.07:795][412]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.51.07:795][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.24-16.51.07:835][412]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.24-16.51.07:835][412]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.51.07:937][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.24-16.51.07:988][413]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.03.24-16.51.08:633][455]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.24-16.51.55:052][291]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.24-16.51.55:229][291]LogSavePackage: Moving '../../../../../Users/Zanthous/Documents/maze/NetworkingResearch/Tanked/Saved/TwinStickPawnE2E5EDD84A63C78C5F3E1F9CB4A054C6.tmp' to '../../../../../Users/Zanthous/Documents/maze/NetworkingResearch/Tanked/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2019.03.24-16.51.57:387][475]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.24-16.51.57:545][489]LogSlate: Window 'TwinStickPawn' being destroyed
+[2019.03.24-16.51.57:551][489]LogSlate: Window 'TwinStickPawn' being destroyed
+[2019.03.24-16.51.58:605][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.24-16.51.58:705][612]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.24-16.51.58:726][612]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.51.58:726][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.24-16.51.58:726][612]PIE: New page: PIE session: TwinStickExampleMap (Mar 24, 2019, 8:51:58 AM)
+[2019.03.24-16.51.58:726][612]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2019.03.24-16.51.58:732][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005274s)
+[2019.03.24-16.51.58:732][612]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2019.03.24-16.51.58:733][612]LogPlayLevel: PIE: World Init took: (0.000835s)
+[2019.03.24-16.51.58:733][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.006273s)
+[2019.03.24-16.51.58:861][612]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.24-16.51.58:872][612]LogInit: FAudioDevice initialized.
+[2019.03.24-16.51.58:903][612]LogLoad: Game class is 'TwinStickGameMode_C'
+[2019.03.24-16.51.58:905][612]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2019.03.24-12.51.58
+[2019.03.24-16.51.58:905][612]LogWorld: Bringing up level for play took: 0.001433
+[2019.03.24-16.51.58:918][612]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.199
+[2019.03.24-16.51.58:918][612]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.52.06:013][457]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.52.06:013][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.24-16.52.06:051][457]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.24-16.52.06:051][457]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2019.03.24-16.52.06:162][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.24-16.52.06:196][458]LogPlayLevel: Display: Destroying online subsystem :Context_11
