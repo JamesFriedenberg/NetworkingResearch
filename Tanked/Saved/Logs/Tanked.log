@@ -1,4 +1,4 @@
-﻿Log file open, 05/07/19 23:16:07
+﻿Log file open, 05/08/19 00:49:31
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,8 +9,8 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Tanked
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.176264
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.193388
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.104s to configure plugins.
+LogStreaming: Display: Took  0.112s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -118,13 +118,13 @@ LogInit: Build: ++UE4+Release-4.20-CL-4369336
 LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 620
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 630
 LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: 
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -150,674 +150,508 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.05.08-03.16.07:435][  0]LogInit: Selected Device Profile: [Windows]
-[2019.05.08-03.16.07:435][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.05.08-03.16.07:460][  0]LogHAL: Display: Platform has ~ 8 GB [8456409088 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.05.08-03.16.07:460][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.05.08-03.16.07:460][  0]LogInit: Going up to parent DeviceProfile []
-[2019.05.08-03.16.07:460][  0]LogInit: Computer: DESKTOP-G93PICR
-[2019.05.08-03.16.07:460][  0]LogInit: User: dunca
-[2019.05.08-03.16.07:460][  0]LogInit: CPU Page size=4096, Cores=2
-[2019.05.08-03.16.07:460][  0]LogInit: High frequency timer resolution =2.648440 MHz
-[2019.05.08-03.16.07:461][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.05.08-03.16.07:461][  0]LogMemory: Platform Memory Stats for Windows
-[2019.05.08-03.16.07:461][  0]LogMemory: Process Physical Memory: 100.94 MB used, 100.94 MB peak
-[2019.05.08-03.16.07:461][  0]LogMemory: Process Virtual Memory: 92.04 MB used, 92.04 MB peak
-[2019.05.08-03.16.07:461][  0]LogMemory: Physical Memory: 4943.92 MB used,  3120.74 MB free, 8064.66 MB total
-[2019.05.08-03.16.07:461][  0]LogMemory: Virtual Memory: 4629.35 MB used,  3120.74 MB free, 134217728.00 MB total
-[2019.05.08-03.16.07:477][  0]LogInit: Using OS detected language (en-US).
-[2019.05.08-03.16.07:477][  0]LogInit: Using OS detected locale (en-US).
-[2019.05.08-03.16.07:479][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.05.08-03.16.07:880][  0]LogStreaming: Display: Took  0.403s to InitEngineTextLocalization.
-[2019.05.08-03.16.07:880][  0]LogInit: Setting process to per monitor DPI aware
-[2019.05.08-03.16.07:911][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.05.08-03.16.07:911][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.05.08-03.16.08:144][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.05.08-03.16.08:144][  0]LogD3D11RHI: D3D11 adapters:
-[2019.05.08-03.16.08:154][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
-[2019.05.08-03.16.08:154][  0]LogD3D11RHI:       128/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2019.05.08-03.16.08:156][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.05.08-03.16.08:156][  0]LogD3D11RHI:       0/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.05.08-03.16.08:156][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.05.08-03.16.08:161][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.05.08-03.16.08:161][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
-[2019.05.08-03.16.08:161][  0]LogWindows: EnumDisplayDevices:
-[2019.05.08-03.16.08:161][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
-[2019.05.08-03.16.08:161][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2019.05.08-03.16.08:162][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2019.05.08-03.16.08:162][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2019.05.08-03.16.08:162][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
-[2019.05.08-03.16.08:162][  0]LogD3D11RHI:   Driver Version: 22.20.16.4749 (internal:22.20.16.4749, unified:22.20.16.4749)
-[2019.05.08-03.16.08:162][  0]LogD3D11RHI:      Driver Date: 7-24-2017
-[2019.05.08-03.16.08:162][  0]LogRHI: Texture pool is 1500 MB (70% of 2144 MB)
-[2019.05.08-03.16.08:170][  0]LogD3D11RHI: Async texture creation enabled
-[2019.05.08-03.16.08:176][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
-[2019.05.08-03.16.08:177][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/dunca/Documents/NetworkingResearch/Tanked/Intermediate/Shaders/WorkingDirectory/8360/).
-[2019.05.08-03.16.08:177][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dunca/AppData/Local/Temp/UnrealShaderWorkingDir/CA86D60B4D544916DFB6D3963A885E53/'.
-[2019.05.08-03.16.08:476][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.05.08-03.16.08:495][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.05.08-03.16.08:512][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.05.08-03.16.08:527][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.05.08-03.16.08:542][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.05.08-03.16.08:556][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.05.08-03.16.08:570][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.05.08-03.16.08:585][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.05.08-03.16.08:593][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.05.08-03.16.08:676][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.08-03.16.08:676][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.08-03.16.08:676][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.08-03.16.08:676][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.08-03.16.08:676][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.08-03.16.08:676][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.08-03.16.08:676][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.08-03.16.08:676][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.08-03.16.08:676][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.08-03.16.08:676][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.08-03.16.08:676][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.08-03.16.08:676][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.08-03.16.08:676][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.08-03.16.08:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.08-03.16.08:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.08-03.16.08:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.08-03.16.08:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.08-03.16.08:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.08-03.16.08:678][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.05.08-03.16.08:749][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.05.08-03.16.08:749][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.05.08-03.16.08:779][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.05.08-03.16.08:779][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.05.08-03.16.08:792][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.05.08-03.16.08:807][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.05.08-03.16.08:820][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.05.08-03.16.08:835][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.05.08-03.16.08:844][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.05.08-03.16.08:844][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.05.08-03.16.08:911][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.05.08-03.16.08:911][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.05.08-03.16.08:911][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.05.08-03.16.09:777][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.05.08-03.16.09:835][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/dunca/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.05.08-03.16.09:835][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/dunca/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.05.08-03.16.09:835][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/dunca/Documents/NetworkingResearch/Tanked/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.05.08-03.16.09:835][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.05.08-03.16.09:835][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/dunca/Documents/NetworkingResearch/Tanked/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.05.08-03.16.09:835][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.05.08-03.16.09:851][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.05.08-03.16.09:863][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dunca/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.05.08-03.16.09:863][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.05.08-03.16.09:863][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.05.08-03.16.09:883][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.05.08-03.16.09:885][  0]LogSlate: Using FreeType 2.6.0
-[2019.05.08-03.16.09:885][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.05.08-03.16.09:969][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
-[2019.05.08-03.16.10:405][  0]LogInit: Selected Device Profile: [Windows]
-[2019.05.08-03.16.10:468][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.05.08-03.16.10:472][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.05.08-03.16.10:472][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.05.08-03.16.10:472][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.05.08-03.16.10:472][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.05.08-03.16.10:592][  0]LogNetVersion: Tanked 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 32475459)
-[2019.05.08-03.16.11:314][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.152498 seconds
-[2019.05.08-03.16.11:322][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.05.08-03.16.11:322][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2019.05.08-03.16.11:322][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.05.08-03.16.12:348][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.05.08-03.16.12:361][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.05.08-03.16.12:525][  0]SourceControl: Source control is disabled
-[2019.05.08-03.16.13:082][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.05.08-03.16.13:145][  0]LogOcInput: OculusInput pre-init called
-[2019.05.08-03.16.13:209][  0]LogEngine: Initializing Engine...
-[2019.05.08-03.16.13:210][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.05.08-03.16.13:212][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.05.08-03.16.13:212][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.05.08-03.16.13:212][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.05.08-03.16.13:212][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.05.08-03.16.13:445][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.05.08-03.16.13:464][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.05.08-03.16.13:472][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.05.08-03.16.13:487][  0]LogInit: FAudioDevice initialized.
-[2019.05.08-03.16.13:488][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.05.08-03.16.13:570][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/dunca/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.05.08-03.16.13:586][  0]LogInit: Texture streaming: Enabled
-[2019.05.08-03.16.13:607][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.05.08-03.16.13:624][  0]LogInit: Transaction tracking system initialized
-[2019.05.08-03.16.13:650][  0]BlueprintLog: New page: Editor Load
-[2019.05.08-03.16.13:736][  0]LocalizationService: Localization service is disabled
-[2019.05.08-03.16.14:029][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.05.08-03.16.14:029][  0]LogCook: Display: Mobile HDR setting 1
-[2019.05.08-03.16.14:029][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.05.08-03.16.14:029][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.05.08-03.16.14:029][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.05.08-03.16.14:029][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.05.08-03.16.14:029][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.05.08-03.16.14:229][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dunca/Documents/NetworkingResearch/Tanked/Content/' took 0.02s
-[2019.05.08-03.16.14:268][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.05.08-03.16.14:270][  0]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.05.08-03.16.25:690][  0]LogSlate: Window 'Restore Packages' being destroyed
-[2019.05.08-03.16.25:690][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.05.08-03.16.25:692][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.05.08-03.16.25:698][  0]Cmd: MAP LOAD FILE="../../../../../../Users/dunca/Documents/NetworkingResearch/Tanked/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.05.08-03.16.25:699][  0]LightingResults: New page: Lighting Build
-[2019.05.08-03.16.25:704][  0]MapCheck: New page: Map Check
-[2019.05.08-03.16.25:704][  0]LightingResults: New page: Lighting Build
-[2019.05.08-03.16.26:215][  0]LogAIModule: Creating AISystem for world TwinStickExampleMap
-[2019.05.08-03.16.26:242][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.05.08-03.16.26:274][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.05.08-03.16.26:379][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 104.753ms to complete.
-[2019.05.08-03.16.26:379][  0]LogFileHelpers: Loading map 'TwinStickExampleMap' took 0.681
-[2019.05.08-03.16.26:420][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.08-03.16.26:431][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.08-03.16.26:442][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.08-03.16.26:454][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.08-03.16.26:463][  0]LogCollectionManager: Loaded 0 collections in 0.002336 seconds
-[2019.05.08-03.16.26:506][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dunca/Documents/NetworkingResearch/Tanked/Saved/Collections/' took 0.01s
-[2019.05.08-03.16.26:506][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dunca/Documents/NetworkingResearch/Tanked/Content/Developers/dunca/Collections/' took 0.01s
-[2019.05.08-03.16.26:507][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dunca/Documents/NetworkingResearch/Tanked/Content/Collections/' took 0.01s
-[2019.05.08-03.16.26:507][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.05.08-03.16.26:519][  0]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2572 classes and 603 folders.
-[2019.05.08-03.16.26:529][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.05.08-03.16.26:593][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.05.08-03.16.26:602][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.05.08-03.16.26:705][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.05.08-03.16.26:713][  0]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.05.08-03.16.26:785][  0]LogRenderer: Reallocating scene render targets to support 1004x456 Format 10 NumSamples 1 (Frame:1).
-[2019.05.08-03.16.27:845][  0]LogSlate: Took 0.005744 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.05.08-03.16.27:960][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.05.08-03.16.27:960][  0]LogLoad: (Engine Initialization) Total time: 22.41 seconds
-[2019.05.08-03.16.27:960][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.05.08-03.16.28:060][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.05.08-03.16.28:086][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/dunca/Documents/NetworkingResearch/Tanked/Content/' took 0.10s
-[2019.05.08-03.16.28:140][  2]LogAssetRegistry: Asset discovery search completed in 18.1925 seconds
-[2019.05.08-03.16.28:143][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.05.08-03.16.28:144][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000111 seconds (updated 0 objects)
-[2019.05.08-03.16.29:057][  6]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.05.08-03.17.03:380][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.08-03.17.04:598][161]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.08-03.17.09:997][290]SourceControl: fatal: /Script: '/Script' is outside repository
-[2019.05.08-03.17.38:952][ 82]LogSlate: Window 'Editor Preferences' being destroyed
-[2019.05.08-03.17.38:989][ 82]LogSlate: Window 'Editor Preferences' being destroyed
-[2019.05.08-03.17.39:791][103]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-03.17.39:886][107]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.05.08-03.17.39:918][107]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.05.08-03.17.39:919][107]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.05.08-03.17.39:935][107]PIE: New page: PIE session: TwinStickExampleMap (May 7, 2019, 7:17:39 PM)
-[2019.05.08-03.17.39:936][107]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_1_TwinStickExampleMap
-[2019.05.08-03.17.39:945][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009332s)
-[2019.05.08-03.17.39:946][107]LogAIModule: Creating AISystem for world TwinStickExampleMap
-[2019.05.08-03.17.39:946][107]LogPlayLevel: PIE: World Init took: (0.001060s)
-[2019.05.08-03.17.39:947][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_1_TwinStickExampleMap.TwinStickExampleMap (0.010952s)
-[2019.05.08-03.17.39:978][107]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.05.08-03.17.39:990][107]LogInit: FAudioDevice initialized.
-[2019.05.08-03.17.40:002][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.08-03.17.40:064][107]LogLoad: Game class is 'TwinStickGameMode_C'
-[2019.05.08-03.17.40:072][107]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_1_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2019.05.07-23.17.40
-[2019.05.08-03.17.40:076][107]LogWorld: Bringing up level for play took: 0.006030
-[2019.05.08-03.17.40:107][107]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
-[2019.05.08-03.17.40:119][107]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_1_TwinStickExampleMap -0.675
-[2019.05.08-03.17.40:122][107]PIE: New page: PIE session: TwinStickExampleMap (May 7, 2019, 7:17:40 PM)
-[2019.05.08-03.17.40:122][107]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_2_TwinStickExampleMap
-[2019.05.08-03.17.40:132][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008992s)
-[2019.05.08-03.17.40:133][107]LogAIModule: Creating AISystem for world TwinStickExampleMap
-[2019.05.08-03.17.40:133][107]LogPlayLevel: PIE: World Init took: (0.001619s)
-[2019.05.08-03.17.40:134][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_2_TwinStickExampleMap.TwinStickExampleMap (0.011003s)
-[2019.05.08-03.17.40:186][107]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.08-03.17.40:190][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.08-03.17.40:230][107]LogLoad: Game class is 'TwinStickGameMode_C'
-[2019.05.08-03.17.40:233][107]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_2_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2019.05.07-23.17.40
-[2019.05.08-03.17.40:233][107]LogWorld: Bringing up level for play took: 0.002908
-[2019.05.08-03.17.40:253][107]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_2_TwinStickExampleMap -0.541
-[2019.05.08-03.17.40:263][107]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.05.08-03.17.40:552][107]LogRenderer: Reallocating scene render targets to support 1004x536 Format 10 NumSamples 1 (Frame:1).
-[2019.05.08-03.17.42:103][128]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.05.08-03.17.42:109][128]LogScript: Warning: Accessed None trying to read property Player_TravelMenu
-	TwinStickController_C /Game/TwinStickBP/Maps/UEDPIE_2_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickController_C_0
-	Function /Game/TwinStickBP/Blueprints/TwinStickController.TwinStickController_C:ExecuteUbergraph_TwinStickController:0424
-[2019.05.08-03.17.42:109][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.08-03.17.42:172][128]LogSlate: Window 'Tanked Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.05.08-03.17.42:204][128]LogScript: Warning: Accessed None trying to read property Player_TravelMenu
-	TwinStickController_C /Game/TwinStickBP/Maps/UEDPIE_1_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickController_C_0
-	Function /Game/TwinStickBP/Blueprints/TwinStickController.TwinStickController_C:ExecuteUbergraph_TwinStickController:0424
-[2019.05.08-03.17.42:204][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.08-03.17.42:243][128]LogSlate: Window 'Tanked Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.05.08-03.17.42:280][128]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.05.08-03.17.42:282][128]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2019.05.08-03.17.42:373][129]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2019.05.08-03.17.42:373][129]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2019.05.08-03.17.43:998][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-03.17.44:296][177]LogAIModule: Creating AISystem for world LobbyLevel
-[2019.05.08-03.17.44:306][177]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/LobbyLevels/LobbyLevel.LobbyLevel
-[2019.05.08-03.17.44:361][177]Cmd: MAP LOAD FILE="../../../../../../Users/dunca/Documents/NetworkingResearch/Tanked/Content/Levels/LobbyLevels/LobbyLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.05.08-03.17.44:361][177]LightingResults: New page: Lighting Build
-[2019.05.08-03.17.44:362][177]LoadErrors: New page: Loading map: LobbyLevel.umap
-[2019.05.08-03.17.44:363][177]MapCheck: New page: Map Check
-[2019.05.08-03.17.44:363][177]LightingResults: New page: Lighting Build
-[2019.05.08-03.17.44:490][177]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.05.08-03.17.44:552][177]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.05.08-03.17.44:633][177]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 81.292ms to complete.
-[2019.05.08-03.17.44:633][177]LogFileHelpers: Loading map 'LobbyLevel' took 0.274
-[2019.05.08-03.17.45:391][189]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-03.17.45:486][192]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.05.08-03.17.45:515][192]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LobbyLevels/LobbyLevel.LobbyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LobbyLevels/LobbyLevel.LobbyLevel:PersistentLevel.LobbyLevel' with GeneratedClass '/Game/Levels/LobbyLevels/LobbyLevel.LobbyLevel_C' with ClassGeneratedBy '/Game/Levels/LobbyLevels/LobbyLevel.LobbyLevel:PersistentLevel.LobbyLevel'
-[2019.05.08-03.17.45:515][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.05.08-03.17.45:516][192]PIE: New page: PIE session: LobbyLevel (May 7, 2019, 7:17:45 PM)
-[2019.05.08-03.17.45:517][192]LogPlayLevel: Creating play world package: /Game/Levels/LobbyLevels/UEDPIE_1_LobbyLevel
-[2019.05.08-03.17.45:522][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005711s)
-[2019.05.08-03.17.45:523][192]LogAIModule: Creating AISystem for world LobbyLevel
-[2019.05.08-03.17.45:524][192]LogPlayLevel: PIE: World Init took: (0.001013s)
-[2019.05.08-03.17.45:524][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LobbyLevels/LobbyLevel.LobbyLevel to /Game/Levels/LobbyLevels/UEDPIE_1_LobbyLevel.LobbyLevel (0.007173s)
-[2019.05.08-03.17.45:546][192]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.05.08-03.17.45:558][192]LogInit: FAudioDevice initialized.
-[2019.05.08-03.17.45:564][192]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.08-03.17.45:603][192]LogLoad: Game class is 'TwinStickGameMode_C'
-[2019.05.08-03.17.45:607][192]LogWorld: Bringing World /Game/Levels/LobbyLevels/UEDPIE_1_LobbyLevel.LobbyLevel up for play (max tick rate 0) at 2019.05.07-23.17.45
-[2019.05.08-03.17.45:607][192]LogWorld: Bringing up level for play took: 0.003561
-[2019.05.08-03.17.45:629][192]PIE: Play in editor start time for /Game/Levels/LobbyLevels/UEDPIE_1_LobbyLevel 0.835
-[2019.05.08-03.17.45:631][192]PIE: New page: PIE session: LobbyLevel (May 7, 2019, 7:17:45 PM)
-[2019.05.08-03.17.45:632][192]LogPlayLevel: Creating play world package: /Game/Levels/LobbyLevels/UEDPIE_2_LobbyLevel
-[2019.05.08-03.17.45:640][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008605s)
-[2019.05.08-03.17.45:642][192]LogAIModule: Creating AISystem for world LobbyLevel
-[2019.05.08-03.17.45:642][192]LogPlayLevel: PIE: World Init took: (0.001638s)
-[2019.05.08-03.17.45:643][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LobbyLevels/LobbyLevel.LobbyLevel to /Game/Levels/LobbyLevels/UEDPIE_2_LobbyLevel.LobbyLevel (0.011558s)
-[2019.05.08-03.17.45:692][192]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.08-03.17.45:697][192]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.08-03.17.45:730][192]LogLoad: Game class is 'TwinStickGameMode_C'
-[2019.05.08-03.17.45:732][192]LogWorld: Bringing World /Game/Levels/LobbyLevels/UEDPIE_2_LobbyLevel.LobbyLevel up for play (max tick rate 0) at 2019.05.07-23.17.45
-[2019.05.08-03.17.45:733][192]LogWorld: Bringing up level for play took: 0.001775
-[2019.05.08-03.17.45:749][192]PIE: Play in editor start time for /Game/Levels/LobbyLevels/UEDPIE_2_LobbyLevel 0.955
-[2019.05.08-03.17.45:754][192]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LobbyLevels/LobbyLevel.LobbyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LobbyLevels/LobbyLevel.LobbyLevel:PersistentLevel.LobbyLevel' with GeneratedClass '/Game/Levels/LobbyLevels/LobbyLevel.LobbyLevel_C' with ClassGeneratedBy '/Game/Levels/LobbyLevels/LobbyLevel.LobbyLevel:PersistentLevel.LobbyLevel'
-[2019.05.08-03.17.55:703][309]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.08-03.17.57:773][347]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-03.17.57:886][349]LogInit: WinSock: I am DESKTOP-G93PICR (192.168.1.8:0)
-[2019.05.08-03.17.58:046][349]LogPackageName: SearchForPackageOnDisk took   0.155s to resolve LobbyLevelJames3.umap.
-[2019.05.08-03.17.58:165][349]LogPackageName: SearchForPackageOnDisk took   0.117s to resolve LobbyLevelJames3.umap.
-[2019.05.08-03.17.58:165][349]LogNet: Browse: /Game/Levels/LobbyLevels/LobbyLevelJames3?listen
-[2019.05.08-03.17.58:166][349]LogLoad: LoadMap: /Game/Levels/LobbyLevels/LobbyLevelJames3?listen
-[2019.05.08-03.17.58:194][349]LogPlayLevel: Creating play world package: /Game/Levels/LobbyLevels/UEDPIE_2_LobbyLevel
-[2019.05.08-03.17.58:200][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005146s)
-[2019.05.08-03.17.58:201][349]LogAIModule: Creating AISystem for world LobbyLevel
-[2019.05.08-03.17.58:202][349]LogPlayLevel: PIE: World Init took: (0.002204s)
-[2019.05.08-03.17.58:202][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LobbyLevels/LobbyLevel.LobbyLevel to /Game/Levels/LobbyLevels/UEDPIE_2_LobbyLevel.LobbyLevel (0.007796s)
-[2019.05.08-03.17.58:202][349]LogLoad: Game class is 'TwinStickGameMode_C'
-[2019.05.08-03.17.58:204][349]LogTemp: Display: ParseSettings for GameNetDriver
-[2019.05.08-03.17.58:205][349]LogTemp: Display: ParseSettings for IpNetDriver_0
-[2019.05.08-03.17.58:205][349]LogTemp: Display: ParseSettings for GameNetDriver
-[2019.05.08-03.17.58:207][349]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
-[2019.05.08-03.17.58:207][349]LogInit: WinSock: Socket queue 131072 / 131072
-[2019.05.08-03.17.58:207][349]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2019.05.08-03.17.58:208][349]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
-[2019.05.08-03.17.58:210][349]LogWorld: Bringing World /Game/Levels/LobbyLevels/UEDPIE_2_LobbyLevel.LobbyLevel up for play (max tick rate 0) at 2019.05.07-23.17.58
-[2019.05.08-03.17.58:211][349]LogWorld: Bringing up level for play took: 0.001850
-[2019.05.08-03.17.58:214][349]LogLoad: Took 0.047966 seconds to LoadMap(/Game/Levels/LobbyLevels/UEDPIE_2_LobbyLevel)
-[2019.05.08-03.18.00:845][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.08-03.18.04:049][454]LogOnline: Warning: OSS: Ignoring game search request while one is pending
-[2019.05.08-03.18.06:057][491]LogNet: Browse: 192.168.1.8//Game/TwinStickBP/Maps/TwinStickExampleMap
-[2019.05.08-03.18.06:058][491]LogTemp: Display: ParseSettings for GameNetDriver
-[2019.05.08-03.18.06:058][491]LogTemp: Display: ParseSettings for IpNetDriver_1
-[2019.05.08-03.18.06:059][491]LogTemp: Display: ParseSettings for PendingNetDriver
-[2019.05.08-03.18.06:059][491]LogInit: WinSock: Socket queue 32768 / 32768
-[2019.05.08-03.18.06:061][491]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2019.05.08-03.18.06:064][491]LogNet: Game client on port 7777, rate 10000
-[2019.05.08-03.18.06:069][491]LogNet: NotifyAcceptingConnection accepted from: 192.168.1.8:58550
-[2019.05.08-03.18.06:069][491]LogHandshake: SendConnectChallenge. Timestamp: 8.229095, Cookie: 010241154065084013199056190171197026085151164091050239168206
-[2019.05.08-03.18.06:108][492]LogHandshake: SendChallengeResponse. Timestamp: 8.229095, Cookie: 010241154065084013199056190171197026085151164091050239168206
-[2019.05.08-03.18.06:112][492]LogNet: NotifyAcceptingConnection accepted from: 192.168.1.8:58550
-[2019.05.08-03.18.06:112][492]LogHandshake: SendChallengeAck. InCookie: 010241154065084013199056190171197026085151164091050239168206
-[2019.05.08-03.18.06:112][492]LogNet: Server accepting post-challenge connection from: 192.168.1.8:58550
-[2019.05.08-03.18.06:113][492]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2019.05.08-03.18.06:114][492]LogNet: NotifyAcceptedConnection: Name: LobbyLevel, TimeStamp: 05/07/19 23:18:06, [UNetConnection] RemoteAddr: 192.168.1.8:58550, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2019.05.08-03.18.06:114][492]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 192.168.1.8:58550, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2019.05.08-03.18.06:162][493]LogNetVersion: Tanked 1.0.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3427747349)
-[2019.05.08-03.18.06:162][493]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 192.168.1.8:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2019.05.08-03.18.06:165][493]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/LobbyLevels/UEDPIE_2_LobbyLevel.LobbyLevel: Accepted
-[2019.05.08-03.18.06:167][493]LogNet: Remote platform little endian=1
-[2019.05.08-03.18.06:167][493]LogNet: This platform little endian=1
-[2019.05.08-03.18.06:219][494]LogNet: Login request: /Game/TwinStickBP/Maps/TwinStickExampleMap?Name=DESKTOP-G93PICR-A680904443159F9600F5BCA955A1F264 userId: DESKTOP-G93PICR-A680904443159F9600F5BCA955A1F264
-[2019.05.08-03.18.06:272][495]LogNet: Welcomed by server (Level: /Game/Levels/LobbyLevels/UEDPIE_2_LobbyLevel, Game: /Game/TwinStickBP/Blueprints/TwinStickGameMode.TwinStickGameMode_C)
-[2019.05.08-03.18.06:323][495]LogLoad: LoadMap: 192.168.1.8//Game/Levels/LobbyLevels/UEDPIE_2_LobbyLevel?game=/Game/TwinStickBP/Blueprints/TwinStickGameMode.TwinStickGameMode_C
-[2019.05.08-03.18.06:361][495]LogAIModule: Creating AISystem for world LobbyLevel
-[2019.05.08-03.18.06:361][495]LogTemp: Display: ParseSettings for GameNetDriver
-[2019.05.08-03.18.06:363][495]LogWorld: Bringing World /Game/Levels/LobbyLevels/UEDPIE_1_LobbyLevel.LobbyLevel up for play (max tick rate 0) at 2019.05.07-23.18.06
-[2019.05.08-03.18.06:363][495]LogWorld: Bringing up level for play took: 0.001457
-[2019.05.08-03.18.06:363][495]LogLoad: Took 0.040331 seconds to LoadMap(/Game/Levels/LobbyLevels/UEDPIE_2_LobbyLevel)
-[2019.05.08-03.18.06:364][495]LogNet: Client netspeed is 10000
-[2019.05.08-03.18.06:364][495]LogNet: Join request: /Game/TwinStickBP/Maps/TwinStickExampleMap?Name=DESKTOP-G93PICR-A680904443159F9600F5BCA955A1F264?SplitscreenCount=1
-[2019.05.08-03.18.06:373][495]LogNet: Join succeeded: DESKTOP-G93PICR-A680
-[2019.05.08-03.18.06:751][498]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.06:803][499]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.06:859][500]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.06:913][501]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.06:966][502]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.07:020][503]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.07:074][504]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.07:128][505]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.07:181][506]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.07:238][507]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.07:291][508]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.07:345][509]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.07:398][510]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.07:452][511]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.07:506][512]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.07:560][513]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.07:613][514]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.07:666][515]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.07:719][516]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.07:773][517]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.07:828][518]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.07:880][519]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.07:934][520]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.07:989][521]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.08:041][522]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.08:095][523]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.08:148][524]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.08:202][525]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.08:258][526]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.08:314][527]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.08:365][528]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.08:421][529]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.08:474][530]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.08:528][531]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.08:583][532]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.08:638][533]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.08:691][534]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.08:744][535]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.08:798][536]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.08:855][537]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.08:908][538]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.08:963][539]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.09:019][540]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.09:073][541]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.09:126][542]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.09:181][543]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.09:237][544]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.09:290][545]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.09:343][546]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.09:397][547]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.09:454][548]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.09:512][549]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.09:568][550]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.09:621][551]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.09:678][552]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.09:732][553]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.09:787][554]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.09:842][555]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.09:896][556]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.09:949][557]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.10:004][558]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.10:058][559]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.10:113][560]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.10:167][561]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.10:220][562]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.10:275][563]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.10:327][564]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.10:380][565]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.10:435][566]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.10:489][567]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.10:542][568]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.10:597][569]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.10:653][570]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.10:707][571]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.10:760][572]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.10:814][573]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.10:869][574]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.10:923][575]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.10:979][576]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.11:034][577]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.11:089][578]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.11:142][579]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.11:195][580]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.11:252][581]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.11:305][582]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.11:358][583]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.11:412][584]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.11:468][585]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.11:521][586]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.11:574][587]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.11:629][588]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.11:684][589]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.11:738][590]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.11:793][591]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.11:847][592]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.11:904][593]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.11:958][594]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.12:014][595]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.12:068][596]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.12:122][597]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.12:176][598]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.12:230][599]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.12:283][600]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.12:336][601]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.12:390][602]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.12:444][603]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.12:528][604]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.12:586][605]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.12:641][606]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.12:693][607]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.12:750][608]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.12:805][609]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.12:858][610]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.12:913][611]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.12:966][612]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.13:020][613]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.13:073][614]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.13:126][615]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.13:181][616]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.13:236][617]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.13:290][618]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.13:343][619]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.13:400][620]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.13:452][621]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.13:506][622]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.13:559][623]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.13:614][624]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.13:669][625]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.13:722][626]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.13:776][627]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.13:833][628]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.13:886][629]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.13:939][630]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.13:993][631]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.14:049][632]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.14:102][633]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.14:155][634]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.14:210][635]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.14:269][636]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.14:322][637]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.14:375][638]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.14:430][639]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.14:484][640]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.14:538][641]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.14:592][642]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.14:647][643]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.14:700][644]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.14:754][645]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.14:808][646]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.14:861][647]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.14:914][648]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.14:969][649]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.15:023][650]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.15:076][651]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.15:131][652]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.15:185][653]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.15:240][654]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.15:293][655]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.15:346][656]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.15:401][657]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.15:455][658]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.15:510][659]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.15:566][660]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.15:621][661]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.15:675][662]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.15:731][663]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.15:787][664]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.15:843][665]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.15:898][666]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.15:953][667]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.16:007][668]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.16:063][669]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.16:118][670]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.16:172][671]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.16:229][672]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.16:283][673]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.16:339][674]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.16:394][675]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.16:447][676]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.16:502][677]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.16:556][678]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.16:611][679]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.16:665][680]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.16:719][681]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.16:775][682]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.16:832][683]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.16:886][684]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.16:940][685]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.16:997][686]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.17:053][687]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.17:108][688]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.17:163][689]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.17:219][690]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.17:274][691]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.17:327][692]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.17:380][693]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.17:435][694]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.17:488][695]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.17:543][696]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.17:597][697]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.17:650][698]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.17:703][699]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.17:757][700]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.17:811][701]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.17:867][702]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.17:917][703]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.17:971][704]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.18:025][705]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.18:078][706]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.18:131][707]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.18:184][708]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.18:241][709]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.18:294][710]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.18:348][711]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.18:402][712]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.18:455][713]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.18:510][714]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.18:563][715]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.18:617][716]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.18:671][717]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.18:725][718]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.18:779][719]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.18:835][720]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.18:890][721]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.18:945][722]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.18:998][723]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.19:052][724]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.19:106][725]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.19:160][726]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.19:214][727]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.19:269][728]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.19:323][729]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.19:376][730]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.19:430][731]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.19:484][732]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.19:539][733]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.19:594][734]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.19:648][735]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.19:701][736]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.19:756][737]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.19:812][738]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.19:866][739]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.19:922][740]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.19:978][741]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.20:032][742]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.20:088][743]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.20:143][744]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.20:200][745]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.20:253][746]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.20:308][747]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.20:362][748]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.20:415][749]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.20:469][750]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.20:524][751]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.20:577][752]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.20:631][753]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.20:685][754]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.20:738][755]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.20:792][756]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.20:847][757]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.20:901][758]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.20:957][759]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.21:011][760]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.21:065][761]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.21:119][762]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.21:175][763]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.21:230][764]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.21:284][765]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.21:339][766]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.21:393][767]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.21:447][768]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.21:501][769]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.21:557][770]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.21:611][771]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.21:664][772]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.21:718][773]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.21:774][774]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.21:828][775]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.21:882][776]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.21:936][777]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.21:990][778]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.22:046][779]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.22:102][780]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.22:158][781]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.22:215][782]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.22:274][783]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.22:326][784]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.22:380][785]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.22:435][786]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.22:490][787]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.22:544][788]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.22:598][789]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.22:653][790]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.22:706][791]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.22:761][792]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.22:814][793]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.22:869][794]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.22:923][795]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.22:977][796]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.23:032][797]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.23:090][798]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.23:145][799]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.23:200][800]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.23:258][801]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.23:312][802]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.23:368][803]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.23:422][804]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.23:475][805]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.23:530][806]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.23:584][807]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.23:639][808]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.23:693][809]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.23:747][810]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.23:805][811]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.23:859][812]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor TwinStickPawn_317. Function MoveServer will not be processed.
-[2019.05.08-03.18.23:865][812]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LobbyLevels/LobbyLevel.LobbyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LobbyLevels/LobbyLevel.LobbyLevel:PersistentLevel.LobbyLevel' with GeneratedClass '/Game/Levels/LobbyLevels/LobbyLevel.LobbyLevel_C' with ClassGeneratedBy '/Game/Levels/LobbyLevels/LobbyLevel.LobbyLevel:PersistentLevel.LobbyLevel'
-[2019.05.08-03.18.23:870][812]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.08-03.18.23:947][812]LogSlate: Window 'Tanked Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.05.08-03.18.23:950][812]LogScript: Warning: Accessed None trying to read property Player_TravelMenu
-	TwinStickController_C /Game/Levels/LobbyLevels/UEDPIE_2_LobbyLevel.LobbyLevel:PersistentLevel.TwinStickController_C_1
-	Function /Game/TwinStickBP/Blueprints/TwinStickController.TwinStickController_C:ExecuteUbergraph_TwinStickController:0424
-[2019.05.08-03.18.23:950][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Player_TravelMenu". Blueprint:  TwinStickController Function:  Execute Ubergraph Twin Stick Controller Graph:  EventGraph Node:  Remove from Parent
-[2019.05.08-03.18.23:984][812]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.08-03.18.24:022][812]LogSlate: Window 'Tanked Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.05.08-03.18.24:061][812]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.05.08-03.18.24:061][812]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LobbyLevels/LobbyLevel.LobbyLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LobbyLevels/LobbyLevel.LobbyLevel:PersistentLevel.LobbyLevel' with GeneratedClass '/Game/Levels/LobbyLevels/LobbyLevel.LobbyLevel_C' with ClassGeneratedBy '/Game/Levels/LobbyLevels/LobbyLevel.LobbyLevel:PersistentLevel.LobbyLevel'
-[2019.05.08-03.18.24:104][812]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.8:58550, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: TwinStickController_C_1, Owner: TwinStickController_C_1, UniqueId: NULL:DESKTOP-G93PICR-A680904443159F9600F5BCA955A1F264
-[2019.05.08-03.18.24:104][812]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.1.8:58550, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: TwinStickController_C_1, Owner: TwinStickController_C_1, UniqueId: NULL:DESKTOP-G93PICR-A680904443159F9600F5BCA955A1F264, Channels: 4, Time: 2019.05.08-03.18.24
-[2019.05.08-03.18.24:104][812]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.8:58550, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: TwinStickController_C_1, Owner: TwinStickController_C_1, UniqueId: NULL:DESKTOP-G93PICR-A680904443159F9600F5BCA955A1F264
-[2019.05.08-03.18.24:105][812]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.8:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: TwinStickController_C_0, Owner: TwinStickController_C_0, UniqueId: NULL:DESKTOP-G93PICR-A680904443159F9600F5BCA955A1F264
-[2019.05.08-03.18.24:105][812]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.1.8:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: TwinStickController_C_0, Owner: TwinStickController_C_0, UniqueId: NULL:DESKTOP-G93PICR-A680904443159F9600F5BCA955A1F264, Channels: 3, Time: 2019.05.08-03.18.24
-[2019.05.08-03.18.24:105][812]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.8:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: TwinStickController_C_0, Owner: TwinStickController_C_0, UniqueId: NULL:DESKTOP-G93PICR-A680904443159F9600F5BCA955A1F264
-[2019.05.08-03.18.24:111][812]LogExit: GameNetDriver None shut down
-[2019.05.08-03.18.24:111][812]LogExit: GameNetDriver None shut down
-[2019.05.08-03.18.24:173][813]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2019.05.08-03.18.24:174][813]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2019.05.08-03.18.26:476][913]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.08-03.18.44:676][728]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
-[2019.05.08-03.18.46:237][759]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2019.05.08-04.49.32:084][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.08-04.49.32:084][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.08-04.49.32:096][  0]LogHAL: Display: Platform has ~ 16 GB [17057812480 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.08-04.49.32:097][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.05.08-04.49.32:097][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.08-04.49.32:097][  0]LogInit: Computer: LAPTOP-PM31A8G6
+[2019.05.08-04.49.32:097][  0]LogInit: User: james
+[2019.05.08-04.49.32:097][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.05.08-04.49.32:097][  0]LogInit: High frequency timer resolution =2.437498 MHz
+[2019.05.08-04.49.32:097][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.05.08-04.49.32:097][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.08-04.49.32:097][  0]LogMemory: Process Physical Memory: 100.24 MB used, 100.24 MB peak
+[2019.05.08-04.49.32:097][  0]LogMemory: Process Virtual Memory: 84.39 MB used, 84.39 MB peak
+[2019.05.08-04.49.32:097][  0]LogMemory: Physical Memory: 5595.59 MB used,  10672.01 MB free, 16267.60 MB total
+[2019.05.08-04.49.32:097][  0]LogMemory: Virtual Memory: 4625.42 MB used,  10672.01 MB free, 134217728.00 MB total
+[2019.05.08-04.49.32:123][  0]LogInit: Using OS detected language (en-US).
+[2019.05.08-04.49.32:123][  0]LogInit: Using OS detected locale (en-US).
+[2019.05.08-04.49.32:124][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.05.08-04.49.32:542][  0]LogStreaming: Display: Took  0.418s to InitEngineTextLocalization.
+[2019.05.08-04.49.32:542][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.08-04.49.32:573][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.08-04.49.32:573][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.08-04.49.32:758][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.08-04.49.32:758][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.08-04.49.32:824][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.05.08-04.49.32:824][  0]LogD3D11RHI:       4018/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.05.08-04.49.32:832][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.05.08-04.49.32:832][  0]LogD3D11RHI:       128/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.05.08-04.49.32:834][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.08-04.49.32:834][  0]LogD3D11RHI:       0/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.08-04.49.32:834][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.08-04.49.32:840][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.08-04.49.32:840][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2019.05.08-04.49.32:840][  0]LogWindows: EnumDisplayDevices:
+[2019.05.08-04.49.32:840][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2019.05.08-04.49.32:841][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.05.08-04.49.32:841][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.05.08-04.49.32:841][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2019.05.08-04.49.32:841][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.05.08-04.49.32:841][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.05.08-04.49.32:841][  0]LogD3D11RHI:   Driver Version: 430.39 (internal:26.21.14.3039, unified:430.39)
+[2019.05.08-04.49.32:841][  0]LogD3D11RHI:      Driver Date: 4-17-2019
+[2019.05.08-04.49.32:841][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2019.05.08-04.49.32:883][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.08-04.49.32:895][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.05.08-04.49.32:945][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Intermediate/Shaders/WorkingDirectory/836/).
+[2019.05.08-04.49.32:946][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/james/AppData/Local/Temp/UnrealShaderWorkingDir/B60BD3B442ED4CE58A2E2D9B7BECD22A/'.
+[2019.05.08-04.49.33:244][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.05.08-04.49.33:259][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.05.08-04.49.33:273][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.05.08-04.49.33:286][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.05.08-04.49.33:301][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.05.08-04.49.33:315][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.05.08-04.49.33:330][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.05.08-04.49.33:345][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.05.08-04.49.33:352][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.05.08-04.49.33:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-04.49.33:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-04.49.33:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-04.49.33:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-04.49.33:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-04.49.33:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-04.49.33:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-04.49.33:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-04.49.33:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-04.49.33:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-04.49.33:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-04.49.33:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-04.49.33:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-04.49.33:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-04.49.33:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-04.49.33:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-04.49.33:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-04.49.33:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-04.49.33:446][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.05.08-04.49.33:510][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.08-04.49.33:510][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.08-04.49.33:538][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.08-04.49.33:538][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.08-04.49.33:552][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.05.08-04.49.33:567][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.05.08-04.49.33:582][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.05.08-04.49.33:597][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.05.08-04.49.33:608][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.08-04.49.33:608][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.08-04.49.33:669][  0]LogXGEController: Cleaning working directory: C:/Users/james/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.05.08-04.49.33:669][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.08-04.49.33:669][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.08-04.49.33:669][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.08-04.49.34:443][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.08-04.49.34:505][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/james/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.05.08-04.49.34:506][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/james/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.05.08-04.49.34:506][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.08-04.49.34:506][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.08-04.49.34:506][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.08-04.49.34:506][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.08-04.49.34:523][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.08-04.49.34:536][  0]LogDerivedDataCache: Using Local data cache path C:/Users/james/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.08-04.49.34:536][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.08-04.49.34:536][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.08-04.49.34:558][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.08-04.49.34:559][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.08-04.49.34:560][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.08-04.49.34:639][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2019.05.08-04.49.34:982][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.08-04.49.35:128][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.05.08-04.49.35:131][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.05.08-04.49.35:131][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.08-04.49.35:131][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.08-04.49.35:131][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.05.08-04.49.35:147][  0]LogNetVersion: Tanked 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 32475459)
+[2019.05.08-04.49.35:727][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.120890 seconds
+[2019.05.08-04.49.35:734][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.05.08-04.49.35:734][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.05.08-04.49.35:734][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.08-04.49.36:675][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.08-04.49.36:689][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.08-04.49.36:841][  0]SourceControl: Source control is disabled
+[2019.05.08-04.49.37:342][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.08-04.49.37:400][  0]LogOcInput: OculusInput pre-init called
+[2019.05.08-04.49.37:465][  0]LogEngine: Initializing Engine...
+[2019.05.08-04.49.37:466][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.08-04.49.37:467][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.08-04.49.37:467][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.08-04.49.37:468][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.08-04.49.37:468][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.08-04.49.37:690][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.08-04.49.37:703][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.08-04.49.37:771][  0]LogInit: XAudio2 using 'BenQ RL2455 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.08-04.49.37:794][  0]LogInit: FAudioDevice initialized.
+[2019.05.08-04.49.37:795][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.08-04.49.37:857][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/james/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.05.08-04.49.37:869][  0]LogInit: Texture streaming: Enabled
+[2019.05.08-04.49.37:886][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.08-04.49.37:899][  0]LogInit: Transaction tracking system initialized
+[2019.05.08-04.49.37:924][  0]BlueprintLog: New page: Editor Load
+[2019.05.08-04.49.38:003][  0]LocalizationService: Localization service is disabled
+[2019.05.08-04.49.38:265][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.08-04.49.38:265][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.08-04.49.38:265][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.05.08-04.49.38:265][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.08-04.49.38:265][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.08-04.49.38:265][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.08-04.49.38:265][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.08-04.49.38:385][  0]LogFileCache: Scanning file cache for directory 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/' took 0.01s
+[2019.05.08-04.49.38:385][  0]Cmd: MAP LOAD FILE="C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.08-04.49.38:386][  0]LightingResults: New page: Lighting Build
+[2019.05.08-04.49.38:389][  0]MapCheck: New page: Map Check
+[2019.05.08-04.49.38:389][  0]LightingResults: New page: Lighting Build
+[2019.05.08-04.49.38:828][  0]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2019.05.08-04.49.38:838][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.08-04.49.38:865][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.08-04.49.38:922][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56.462ms to complete.
+[2019.05.08-04.49.38:922][  0]LogFileHelpers: Loading map 'TwinStickExampleMap' took 0.537
+[2019.05.08-04.49.39:025][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-04.49.39:034][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-04.49.39:043][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-04.49.39:052][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-04.49.39:059][  0]LogCollectionManager: Loaded 0 collections in 0.001798 seconds
+[2019.05.08-04.49.39:101][  0]LogFileCache: Scanning file cache for directory 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Saved/Collections/' took 0.01s
+[2019.05.08-04.49.39:101][  0]LogFileCache: Scanning file cache for directory 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/Developers/james/Collections/' took 0.01s
+[2019.05.08-04.49.39:101][  0]LogFileCache: Scanning file cache for directory 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/Collections/' took 0.01s
+[2019.05.08-04.49.39:101][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.05.08-04.49.39:111][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2572 classes and 603 folders.
+[2019.05.08-04.49.39:117][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.08-04.49.39:158][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.05.08-04.49.39:163][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.05.08-04.49.39:178][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.08-04.49.39:180][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.08-04.49.39:185][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.08-04.49.39:266][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.05.08-04.49.39:311][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.08-04.49.39:405][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.08-04.49.39:405][  0]LogLoad: (Engine Initialization) Total time: 8.81 seconds
+[2019.05.08-04.49.39:405][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.08-04.49.39:424][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.08-04.49.39:432][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-04.49.39:432][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.05.08-04.49.39:480][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.05.08-04.49.39:633][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/james/Documents/School/Research Studio - Chris Egert/NetworkingResearch/Tanked/Content/' took 0.19s
+[2019.05.08-04.49.39:644][  1]LogAssetRegistry: Asset discovery search completed in 5.0271 seconds
+[2019.05.08-04.49.39:645][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2019.05.08-04.53.16:760][327]LogSlate: Took 0.099477 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.05.08-04.53.46:601][ 71]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.08-04.53.58:726][705]LogAssetEditorManager: Opening Asset editor for SoundWave /Game/Music.Music
+[2019.05.08-04.58.51:851][336]LogSlate: Window 'Music - Generic Asset Editor' being destroyed
+[2019.05.08-04.58.51:855][336]LogSlate: Window 'Music - Generic Asset Editor' being destroyed
+[2019.05.08-05.01.01:260][708]LogSlate: Window 'Tanked - Unreal Editor' being destroyed
+[2019.05.08-05.01.01:261][708]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.05.08-05.01.01:694][709]Cmd: QUIT_EDITOR
+[2019.05.08-05.01.01:723][709]LogExit: Preparing to exit.
+[2019.05.08-05.01.02:062][709]LogExit: Editor shut down
+[2019.05.08-05.01.02:063][709]LogExit: Transaction tracking system shut down
+[2019.05.08-05.01.02:422][709]LogExit: Object subsystem successfully closed.
+[2019.05.08-05.01.02:440][709]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.05.08-05.01.02:443][709]LogD3D11RHI: Shutdown
+[2019.05.08-05.01.02:443][709]LogD3D11RHI: CleanupD3DDevice
+[2019.05.08-05.01.02:445][709]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.05.08-05.01.02:456][709]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2019.05.08-05.01.02:456][709]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2019.05.08-05.01.02:456][709]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2019.05.08-05.01.02:458][709]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2019.05.08-05.01.02:458][709]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2019.05.08-05.01.02:458][709]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2019.05.08-05.01.02:458][709]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.05.08-05.01.02:458][709]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.05.08-05.01.02:458][709]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.05.08-05.01.02:458][709]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.05.08-05.01.02:459][709]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.05.08-05.01.02:460][709]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.05.08-05.01.03:440][709]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.05.08-05.01.03:440][709]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.05.08-05.01.03:440][709]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.05.08-05.01.03:440][709]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.05.08-05.01.03:440][709]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.05.08-05.01.03:440][709]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.05.08-05.01.03:440][709]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.05.08-05.01.03:440][709]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.05.08-05.01.03:440][709]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.05.08-05.01.03:440][709]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.05.08-05.01.03:440][709]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.05.08-05.01.03:440][709]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.05.08-05.01.03:440][709]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.05.08-05.01.03:440][709]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.05.08-05.01.03:441][709]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.05.08-05.01.03:441][709]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.05.08-05.01.03:441][709]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.05.08-05.01.03:441][709]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.05.08-05.01.03:441][709]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.05.08-05.01.03:441][709]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.05.08-05.01.03:441][709]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.05.08-05.01.03:441][709]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.05.08-05.01.03:494][709]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.05.08-05.01.03:494][709]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.05.08-05.01.03:494][709]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.05.08-05.01.03:494][709]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.05.08-05.01.03:494][709]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.05.08-05.01.03:494][709]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.05.08-05.01.03:494][709]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.05.08-05.01.03:494][709]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.05.08-05.01.03:494][709]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.05.08-05.01.03:494][709]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.05.08-05.01.03:495][709]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.05.08-05.01.03:495][709]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.05.08-05.01.03:495][709]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.05.08-05.01.03:495][709]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.05.08-05.01.03:495][709]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.05.08-05.01.03:495][709]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.05.08-05.01.03:495][709]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.05.08-05.01.03:495][709]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.05.08-05.01.03:495][709]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.05.08-05.01.03:495][709]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.05.08-05.01.03:495][709]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.05.08-05.01.03:495][709]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.05.08-05.01.03:496][709]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.05.08-05.01.03:496][709]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.05.08-05.01.03:496][709]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.05.08-05.01.03:496][709]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.05.08-05.01.03:496][709]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.05.08-05.01.03:496][709]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.05.08-05.01.03:496][709]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.05.08-05.01.03:496][709]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.05.08-05.01.03:496][709]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.05.08-05.01.03:496][709]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.05.08-05.01.03:579][709]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.05.08-05.01.03:580][709]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.05.08-05.01.03:580][709]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.05.08-05.01.03:580][709]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.05.08-05.01.03:580][709]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.05.08-05.01.03:580][709]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.05.08-05.01.03:580][709]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.05.08-05.01.03:580][709]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.05.08-05.01.03:580][709]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.05.08-05.01.03:580][709]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.05.08-05.01.03:580][709]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.05.08-05.01.03:580][709]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.05.08-05.01.03:580][709]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.05.08-05.01.03:580][709]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.05.08-05.01.03:580][709]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.05.08-05.01.03:580][709]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.05.08-05.01.03:580][709]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.05.08-05.01.03:580][709]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.05.08-05.01.03:584][709]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.05.08-05.01.03:584][709]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.05.08-05.01.03:584][709]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.05.08-05.01.03:584][709]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.05.08-05.01.03:584][709]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.05.08-05.01.03:584][709]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.05.08-05.01.03:584][709]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.05.08-05.01.03:584][709]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.05.08-05.01.03:584][709]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.05.08-05.01.03:584][709]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.05.08-05.01.03:584][709]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.05.08-05.01.03:584][709]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.05.08-05.01.03:585][709]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.05.08-05.01.03:687][709]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.05.08-05.01.03:788][709]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.05.08-05.01.03:788][709]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.05.08-05.01.03:788][709]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.05.08-05.01.03:788][709]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.05.08-05.01.03:788][709]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.05.08-05.01.03:788][709]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.05.08-05.01.03:788][709]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.05.08-05.01.03:789][709]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.05.08-05.01.03:789][709]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.05.08-05.01.03:789][709]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.05.08-05.01.03:789][709]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.05.08-05.01.03:792][709]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.05.08-05.01.03:792][709]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.05.08-05.01.03:792][709]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.05.08-05.01.03:792][709]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.05.08-05.01.03:792][709]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.05.08-05.01.03:792][709]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.05.08-05.01.03:792][709]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.05.08-05.01.03:797][709]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.05.08-05.01.03:803][709]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.05.08-05.01.03:803][709]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.05.08-05.01.03:803][709]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.05.08-05.01.03:803][709]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.05.08-05.01.03:803][709]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.05.08-05.01.03:803][709]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.05.08-05.01.03:803][709]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.05.08-05.01.03:803][709]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.05.08-05.01.03:804][709]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.05.08-05.01.03:804][709]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.05.08-05.01.03:804][709]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.05.08-05.01.03:804][709]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.05.08-05.01.03:804][709]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.05.08-05.01.03:804][709]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.05.08-05.01.03:804][709]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.05.08-05.01.03:804][709]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.05.08-05.01.03:804][709]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.05.08-05.01.03:804][709]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.05.08-05.01.03:804][709]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.05.08-05.01.03:804][709]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.05.08-05.01.03:805][709]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.05.08-05.01.03:805][709]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.05.08-05.01.03:805][709]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.05.08-05.01.03:805][709]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.05.08-05.01.03:805][709]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.05.08-05.01.03:805][709]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.05.08-05.01.03:805][709]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.05.08-05.01.03:805][709]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.05.08-05.01.03:805][709]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.05.08-05.01.03:806][709]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.05.08-05.01.03:806][709]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.05.08-05.01.03:806][709]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.05.08-05.01.03:806][709]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.05.08-05.01.03:806][709]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.05.08-05.01.03:806][709]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.05.08-05.01.03:806][709]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.05.08-05.01.03:806][709]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.05.08-05.01.03:806][709]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.05.08-05.01.03:895][709]LogDerivedDataCache: Shutdown
+[2019.05.08-05.01.03:895][709]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.05.08-05.01.03:895][709]LogXGEController: Cleaning working directory: C:/Users/james/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.05.08-05.01.03:896][709]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.05.08-05.01.03:896][709]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.05.08-05.01.03:896][709]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.05.08-05.01.03:896][709]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.05.08-05.01.03:896][709]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.05.08-05.01.03:896][709]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.05.08-05.01.03:896][709]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.05.08-05.01.03:896][709]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.05.08-05.01.03:896][709]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.05.08-05.01.03:896][709]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.05.08-05.01.03:896][709]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.05.08-05.01.03:896][709]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.05.08-05.01.03:896][709]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.05.08-05.01.03:897][709]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.05.08-05.01.03:897][709]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.05.08-05.01.03:897][709]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.05.08-05.01.03:897][709]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.05.08-05.01.03:897][709]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.05.08-05.01.03:897][709]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.05.08-05.01.03:897][709]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.05.08-05.01.03:897][709]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.05.08-05.01.03:897][709]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.05.08-05.01.03:898][709]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.05.08-05.01.03:898][709]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.05.08-05.01.03:898][709]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.05.08-05.01.03:898][709]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.05.08-05.01.03:904][709]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.05.08-05.01.03:904][709]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.05.08-05.01.03:904][709]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.05.08-05.01.03:904][709]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.05.08-05.01.03:904][709]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.05.08-05.01.03:904][709]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.05.08-05.01.03:904][709]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.05.08-05.01.03:904][709]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.05.08-05.01.03:904][709]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.05.08-05.01.03:904][709]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.05.08-05.01.03:904][709]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.05.08-05.01.03:904][709]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.05.08-05.01.03:904][709]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.05.08-05.01.03:904][709]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.05.08-05.01.03:904][709]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.05.08-05.01.03:904][709]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.05.08-05.01.03:904][709]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.05.08-05.01.03:904][709]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.05.08-05.01.03:904][709]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.05.08-05.01.03:904][709]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.05.08-05.01.03:923][709]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.05.08-05.01.03:923][709]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.05.08-05.01.03:923][709]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3E490D4F-44C0-EA4E-B463-90B286C4294C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=1729000244937291bfc4de99d8ac561c%7C811a463c7b2e474488d7e1479f6d7e3a%7C425ed74f-dfd4-47dc-8c3e-91deaab23b16&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.05.08-05.01.03:927][709]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.05.08-05.01.03:927][709]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.05.08-05.01.03:928][709]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.05.08-05.01.03:928][709]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.05.08-05.01.03:928][709]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.05.08-05.01.03:928][709]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.05.08-05.01.03:928][709]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.05.08-05.01.03:928][709]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.05.08-05.01.03:928][709]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.05.08-05.01.03:928][709]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.05.08-05.01.03:928][709]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.05.08-05.01.03:928][709]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.05.08-05.01.03:928][709]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.05.08-05.01.03:928][709]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.05.08-05.01.03:928][709]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.05.08-05.01.03:928][709]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.05.08-05.01.03:928][709]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.05.08-05.01.03:928][709]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.05.08-05.01.03:928][709]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.05.08-05.01.03:929][709]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.05.08-05.01.03:929][709]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.05.08-05.01.03:929][709]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.05.08-05.01.03:929][709]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.05.08-05.01.03:929][709]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.05.08-05.01.03:929][709]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.05.08-05.01.03:929][709]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.05.08-05.01.03:929][709]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.05.08-05.01.03:929][709]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.05.08-05.01.03:929][709]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.05.08-05.01.03:929][709]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.05.08-05.01.03:935][709]LogExit: Exiting.
+[2019.05.08-05.01.03:943][709]Log file closed, 05/08/19 01:01:03
